@@ -1,0 +1,366 @@
+{
+  "instances": {},
+  "jobs": {},
+  "tasks": {},
+  "scheduler": {},
+  "instance_types": {
+    "0": {
+      "id": 0,
+      "name": "p3.2xlarge",
+      "family": "p3",
+      "capacity": [
+        1,
+        4,
+        61
+      ],
+      "cost": 3.06,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "1": {
+      "id": 1,
+      "name": "p3.8xlarge",
+      "family": "p3",
+      "capacity": [
+        4,
+        16,
+        244
+      ],
+      "cost": 12.24,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "2": {
+      "id": 2,
+      "name": "p3.16xlarge",
+      "family": "p3",
+      "capacity": [
+        8,
+        32,
+        488
+      ],
+      "cost": 24.48,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "3": {
+      "id": 3,
+      "name": "c7i.large",
+      "family": "c7i",
+      "capacity": [
+        0,
+        1,
+        4
+      ],
+      "cost": 0.08925,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "4": {
+      "id": 4,
+      "name": "c7i.xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        2,
+        8
+      ],
+      "cost": 0.1785,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "5": {
+      "id": 5,
+      "name": "c7i.2xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        4,
+        16
+      ],
+      "cost": 0.357,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "6": {
+      "id": 6,
+      "name": "c7i.4xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        8,
+        32
+      ],
+      "cost": 0.714,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "7": {
+      "id": 7,
+      "name": "c7i.8xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        16,
+        64
+      ],
+      "cost": 1.428,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "8": {
+      "id": 8,
+      "name": "c7i.12xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        24,
+        96
+      ],
+      "cost": 2.142,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "9": {
+      "id": 9,
+      "name": "c7i.16xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        32,
+        128
+      ],
+      "cost": 2.856,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "10": {
+      "id": 10,
+      "name": "c7i.24xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        48,
+        192
+      ],
+      "cost": 4.284,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "11": {
+      "id": 11,
+      "name": "c7i.48xlarge",
+      "family": "c7i",
+      "capacity": [
+        0,
+        96,
+        384
+      ],
+      "cost": 8.568,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "12": {
+      "id": 12,
+      "name": "r7i.large",
+      "family": "r7i",
+      "capacity": [
+        0,
+        1,
+        16
+      ],
+      "cost": 0.1323,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "13": {
+      "id": 13,
+      "name": "r7i.xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        2,
+        32
+      ],
+      "cost": 0.2646,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "14": {
+      "id": 14,
+      "name": "r7i.2xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        4,
+        64
+      ],
+      "cost": 0.5292,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "15": {
+      "id": 15,
+      "name": "r7i.4xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        8,
+        128
+      ],
+      "cost": 1.0584,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "16": {
+      "id": 16,
+      "name": "r7i.8xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        16,
+        256
+      ],
+      "cost": 2.1168,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "17": {
+      "id": 17,
+      "name": "r7i.12xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        24,
+        384
+      ],
+      "cost": 3.1752,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "18": {
+      "id": 18,
+      "name": "r7i.16xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        32,
+        512
+      ],
+      "cost": 4.2336,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "19": {
+      "id": 19,
+      "name": "r7i.24xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        48,
+        768
+      ],
+      "cost": 6.3504,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    },
+    "20": {
+      "id": 20,
+      "name": "r7i.48xlarge",
+      "family": "r7i",
+      "capacity": [
+        0,
+        96,
+        1536
+      ],
+      "cost": 12.7008,
+      "launch_cfg": {
+        "key_name": "fake",
+        "region": "us-east-1",
+        "method": "onDemand"
+      },
+      "ssh_user": "ubuntu"
+    }
+  },
+  "contention_map": {}
+}

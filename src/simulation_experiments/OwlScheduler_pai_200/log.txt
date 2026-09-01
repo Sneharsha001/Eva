@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\SNEHARSHA\CLOUD\EVA\src\eva_simulate.py", line 2, in <module>
+    from master import Master
+  File "C:\SNEHARSHA\CLOUD\EVA\src\master\__init__.py", line 1, in <module>
+    from .master import Master
+  File "C:\SNEHARSHA\CLOUD\EVA\src\master\master.py", line 2, in <module>
+    import docker
+ModuleNotFoundError: No module named 'docker'
