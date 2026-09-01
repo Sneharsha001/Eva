@@ -1,0 +1,27 @@
+[
+  {
+    "scheduler name": "NaiveScheduler",
+    "total cost": 35858.35,
+    "runtime": 678301
+  },
+  {
+    "scheduler name": "EVAGangScheduler",
+    "total cost": 25190.69,
+    "runtime": 707401
+  },
+  {
+    "scheduler name": "StratusScheduler",
+    "total cost": 29050.42,
+    "runtime": 738901
+  },
+  {
+    "scheduler name": "OwlScheduler",
+    "total cost": 28936.19,
+    "runtime": 716401
+  },
+  {
+    "scheduler name": "SynergyScheduler",
+    "total cost": 33058.43,
+    "runtime": 679501
+  }
+]

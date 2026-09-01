@@ -1,0 +1,1215 @@
+[
+    {
+        "scheduler name": "CP-SAT",
+        "total cost": 730.2708,
+        "best bound": 581.66145,
+        "runtime": 1861.4374358654022,
+        "solve_status": "FEASIBLE",
+        "assignment": [
+            {
+                "instance_id": 0,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[2]_21",
+                    "vit[1]_85",
+                    "cyclegan[4]_112"
+                ]
+            },
+            {
+                "instance_id": 1,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "sage[0]_3"
+                ]
+            },
+            {
+                "instance_id": 2,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "gcn[1]_198"
+                ]
+            },
+            {
+                "instance_id": 3,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 4,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_19"
+                ]
+            },
+            {
+                "instance_id": 5,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 6,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 7,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 8,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 9,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 10,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[0]_31",
+                    "seq[1]_61",
+                    "cyclegan[3]_138",
+                    "vit[1]_154"
+                ]
+            },
+            {
+                "instance_id": 11,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 12,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[4]_79",
+                    "cyclegan[3]_147"
+                ]
+            },
+            {
+                "instance_id": 13,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 14,
+                "type": "c7i.8xlarge",
+                "tasks": [
+                    "vit[0]_16"
+                ]
+            },
+            {
+                "instance_id": 15,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 16,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 17,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "gcn[1]_12",
+                    "gcn[0]_22",
+                    "cyclegan[2]_43",
+                    "vit[1]_94"
+                ]
+            },
+            {
+                "instance_id": 18,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 19,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[4]_78",
+                    "openfoam[3]_144",
+                    "vit[1]_160"
+                ]
+            },
+            {
+                "instance_id": 20,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[2]_14",
+                    "vit[3]_95",
+                    "cyclegan[3]_199"
+                ]
+            },
+            {
+                "instance_id": 21,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[2]_28",
+                    "cyclegan[2]_91",
+                    "cyclegan[3]_163",
+                    "cyclegan[3]_193"
+                ]
+            },
+            {
+                "instance_id": 22,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 23,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 24,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "cyclegan[1]_102"
+                ]
+            },
+            {
+                "instance_id": 25,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 26,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 27,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_103"
+                ]
+            },
+            {
+                "instance_id": 28,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[6]_107",
+                    "cyclegan[4]_150",
+                    "vit[2]_196"
+                ]
+            },
+            {
+                "instance_id": 29,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 30,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 31,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[4]_54",
+                    "cyclegan[3]_141"
+                ]
+            },
+            {
+                "instance_id": 32,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "openfoam[0]_23",
+                    "a3c[0]_59"
+                ]
+            },
+            {
+                "instance_id": 33,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 34,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "gcn[1]_188"
+                ]
+            },
+            {
+                "instance_id": 35,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 36,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 37,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 38,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 39,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "resnet18[1]_38"
+                ]
+            },
+            {
+                "instance_id": 40,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_76"
+                ]
+            },
+            {
+                "instance_id": 41,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[3]_67",
+                    "cyclegan[4]_139"
+                ]
+            },
+            {
+                "instance_id": 42,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_68"
+                ]
+            },
+            {
+                "instance_id": 43,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[2]_81",
+                    "openfoam[3]_151",
+                    "cyclegan[3]_172",
+                    "gcn[0]_173"
+                ]
+            },
+            {
+                "instance_id": 44,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 45,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 46,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "openfoam[0]_15",
+                    "seq[1]_17",
+                    "cyclegan[2]_24",
+                    "resnet18[1]_119"
+                ]
+            },
+            {
+                "instance_id": 47,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 48,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "a3c[0]_30",
+                    "a3c[0]_148"
+                ]
+            },
+            {
+                "instance_id": 49,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "vit[1]_18",
+                    "gpt2[2]_74",
+                    "gpt2[2]_84",
+                    "openfoam[3]_159"
+                ]
+            },
+            {
+                "instance_id": 50,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_72"
+                ]
+            },
+            {
+                "instance_id": 51,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_93"
+                ]
+            },
+            {
+                "instance_id": 52,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 53,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_142"
+                ]
+            },
+            {
+                "instance_id": 54,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "cyclegan[1]_127"
+                ]
+            },
+            {
+                "instance_id": 55,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 56,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 57,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 58,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_53",
+                    "vit[1]_153",
+                    "cyclegan[3]_192"
+                ]
+            },
+            {
+                "instance_id": 59,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 60,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 61,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 62,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 63,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[2]_56",
+                    "a3c[0]_174"
+                ]
+            },
+            {
+                "instance_id": 64,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_60"
+                ]
+            },
+            {
+                "instance_id": 65,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 66,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[4]_135",
+                    "cyclegan[3]_195"
+                ]
+            },
+            {
+                "instance_id": 67,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_88"
+                ]
+            },
+            {
+                "instance_id": 68,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 69,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 70,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_75",
+                    "cyclegan[4]_96"
+                ]
+            },
+            {
+                "instance_id": 71,
+                "type": "r7i.2xlarge",
+                "tasks": [
+                    "openfoam[1]_49"
+                ]
+            },
+            {
+                "instance_id": 72,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_100"
+                ]
+            },
+            {
+                "instance_id": 73,
+                "type": "r7i.12xlarge",
+                "tasks": [
+                    "openfoam[1]_164",
+                    "cyclegan[6]_176",
+                    "cyclegan[6]_179",
+                    "cyclegan[6]_187"
+                ]
+            },
+            {
+                "instance_id": 74,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[3]_64",
+                    "gcn[2]_120",
+                    "cyclegan[4]_167"
+                ]
+            },
+            {
+                "instance_id": 75,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 76,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 77,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 78,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[1]_47",
+                    "cyclegan[4]_69",
+                    "cyclegan[2]_80"
+                ]
+            },
+            {
+                "instance_id": 79,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 80,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_83"
+                ]
+            },
+            {
+                "instance_id": 81,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[0]_1",
+                    "seq[1]_87",
+                    "a3c[0]_110",
+                    "vit[3]_128"
+                ]
+            },
+            {
+                "instance_id": 82,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 83,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 84,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "cyclegan[1]_57"
+                ]
+            },
+            {
+                "instance_id": 85,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "openfoam[0]_10",
+                    "a3c[0]_52"
+                ]
+            },
+            {
+                "instance_id": 86,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_4",
+                    "cyclegan[2]_36",
+                    "sage[5]_86",
+                    "cyclegan[2]_92"
+                ]
+            },
+            {
+                "instance_id": 87,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 88,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[0]_106",
+                    "openfoam[2]_115",
+                    "seq[0]_133",
+                    "a3c[0]_181"
+                ]
+            },
+            {
+                "instance_id": 89,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 90,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[1]_11",
+                    "gpt2[1]_46",
+                    "openfoam[3]_122",
+                    "gpt2[2]_171"
+                ]
+            },
+            {
+                "instance_id": 91,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[3]_50",
+                    "cyclegan[4]_55"
+                ]
+            },
+            {
+                "instance_id": 92,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "gcn[1]_145"
+                ]
+            },
+            {
+                "instance_id": 93,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 94,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "vit[2]_26",
+                    "cyclegan[3]_66",
+                    "cyclegan[4]_184"
+                ]
+            },
+            {
+                "instance_id": 95,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_178"
+                ]
+            },
+            {
+                "instance_id": 96,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 97,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_155"
+                ]
+            },
+            {
+                "instance_id": 98,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_20"
+                ]
+            },
+            {
+                "instance_id": 99,
+                "type": "r7i.2xlarge",
+                "tasks": [
+                    "openfoam[1]_40"
+                ]
+            },
+            {
+                "instance_id": 100,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[6]_90",
+                    "a3c[0]_114",
+                    "cyclegan[2]_125"
+                ]
+            },
+            {
+                "instance_id": 101,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 102,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_97"
+                ]
+            },
+            {
+                "instance_id": 103,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "cyclegan[1]_189"
+                ]
+            },
+            {
+                "instance_id": 104,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 105,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_71"
+                ]
+            },
+            {
+                "instance_id": 106,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 107,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "sage[2]_58",
+                    "cyclegan[2]_140",
+                    "cyclegan[3]_152"
+                ]
+            },
+            {
+                "instance_id": 108,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 109,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "a3c[0]_25",
+                    "sage[4]_73"
+                ]
+            },
+            {
+                "instance_id": 110,
+                "type": "r7i.12xlarge",
+                "tasks": [
+                    "openfoam[1]_130",
+                    "cyclegan[5]_161",
+                    "cyclegan[6]_169",
+                    "cyclegan[6]_175"
+                ]
+            },
+            {
+                "instance_id": 111,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 112,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "a3c[0]_27",
+                    "gcn[0]_89",
+                    "cyclegan[2]_146"
+                ]
+            },
+            {
+                "instance_id": 113,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_0",
+                    "cyclegan[4]_104"
+                ]
+            },
+            {
+                "instance_id": 114,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 115,
+                "type": "c7i.8xlarge",
+                "tasks": [
+                    "cyclegan[0]_5"
+                ]
+            },
+            {
+                "instance_id": 116,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "seq[0]_6",
+                    "a3c[0]_32",
+                    "sage[7]_129",
+                    "vit[1]_143"
+                ]
+            },
+            {
+                "instance_id": 117,
+                "type": "r7i.12xlarge",
+                "tasks": [
+                    "openfoam[1]_39",
+                    "cyclegan[5]_134",
+                    "cyclegan[6]_185",
+                    "cyclegan[6]_186"
+                ]
+            },
+            {
+                "instance_id": 118,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 119,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "a3c[0]_29",
+                    "cyclegan[3]_137",
+                    "cyclegan[2]_165"
+                ]
+            },
+            {
+                "instance_id": 120,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 121,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 122,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 123,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 124,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 125,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "cyclegan[1]_180"
+                ]
+            },
+            {
+                "instance_id": 126,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 127,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "a3c[0]_33",
+                    "gpt2[0]_35",
+                    "resnet18[0]_105"
+                ]
+            },
+            {
+                "instance_id": 128,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_77"
+                ]
+            },
+            {
+                "instance_id": 129,
+                "type": "r7i.4xlarge",
+                "tasks": [
+                    "openfoam[4]_183"
+                ]
+            },
+            {
+                "instance_id": 130,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 131,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 132,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 133,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "a3c[0]_124",
+                    "a3c[0]_149"
+                ]
+            },
+            {
+                "instance_id": 134,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[3]_48",
+                    "cyclegan[4]_111"
+                ]
+            },
+            {
+                "instance_id": 135,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 136,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 137,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[2]_118",
+                    "seq[2]_177",
+                    "cyclegan[3]_182",
+                    "cyclegan[3]_191"
+                ]
+            },
+            {
+                "instance_id": 138,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 139,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_37"
+                ]
+            },
+            {
+                "instance_id": 140,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_82"
+                ]
+            },
+            {
+                "instance_id": 141,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 142,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_9",
+                    "cyclegan[2]_42",
+                    "cyclegan[3]_132",
+                    "openfoam[3]_136"
+                ]
+            },
+            {
+                "instance_id": 143,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "a3c[0]_109",
+                    "gpt2[2]_170",
+                    "seq[1]_190"
+                ]
+            },
+            {
+                "instance_id": 144,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "vit[1]_99",
+                    "gcn[0]_157",
+                    "cyclegan[3]_194"
+                ]
+            },
+            {
+                "instance_id": 145,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 146,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 147,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_44",
+                    "cyclegan[4]_98"
+                ]
+            },
+            {
+                "instance_id": 148,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 149,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 150,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 151,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 152,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 153,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 154,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "cyclegan[1]_13"
+                ]
+            },
+            {
+                "instance_id": 155,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 156,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "gcn[0]_51",
+                    "cyclegan[4]_70"
+                ]
+            },
+            {
+                "instance_id": 157,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 158,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 159,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_8",
+                    "a3c[0]_34",
+                    "vit[3]_45"
+                ]
+            },
+            {
+                "instance_id": 160,
+                "type": "r7i.2xlarge",
+                "tasks": [
+                    "openfoam[1]_126"
+                ]
+            },
+            {
+                "instance_id": 161,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 162,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 163,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_116"
+                ]
+            },
+            {
+                "instance_id": 164,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 165,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_156"
+                ]
+            },
+            {
+                "instance_id": 166,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "cyclegan[1]_197"
+                ]
+            },
+            {
+                "instance_id": 167,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 168,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 169,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "gcn[1]_162"
+                ]
+            },
+            {
+                "instance_id": 170,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 171,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "cyclegan[2]_62",
+                    "cyclegan[4]_101",
+                    "sage[7]_108",
+                    "cyclegan[2]_117"
+                ]
+            },
+            {
+                "instance_id": 172,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 173,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 174,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 175,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 176,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "resnet18[0]_7",
+                    "vit[1]_63",
+                    "cyclegan[3]_65"
+                ]
+            },
+            {
+                "instance_id": 177,
+                "type": "c7i.large",
+                "tasks": []
+            },
+            {
+                "instance_id": 178,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "gcn[0]_2",
+                    "gcn[2]_123",
+                    "cyclegan[3]_131"
+                ]
+            },
+            {
+                "instance_id": 179,
+                "type": "r7i.2xlarge",
+                "tasks": [
+                    "openfoam[1]_41"
+                ]
+            },
+            {
+                "instance_id": 180,
+                "type": "p3.2xlarge",
+                "tasks": [
+                    "vit[1]_168"
+                ]
+            },
+            {
+                "instance_id": 181,
+                "type": "p3.8xlarge",
+                "tasks": [
+                    "vit[1]_113",
+                    "gcn[0]_121",
+                    "openfoam[3]_158",
+                    "cyclegan[1]_166"
+                ]
+            }
+        ]
+    }
+]

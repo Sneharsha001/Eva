@@ -1,0 +1,37 @@
+[
+  {
+    "n_tasks": 50,
+    "status": "FEASIBLE",
+    "cost": 187.2852,
+    "best_bound": 140.25645,
+    "solve_time": 1800.85
+  },
+  {
+    "n_tasks": 100,
+    "status": "FEASIBLE",
+    "cost": 373.6905,
+    "best_bound": 288.87045,
+    "solve_time": 1801.48
+  },
+  {
+    "n_tasks": 200,
+    "status": "FEASIBLE",
+    "cost": 736.8243,
+    "best_bound": 2.3205,
+    "solve_time": 1802.14
+  },
+  {
+    "n_tasks": 400,
+    "status": "FEASIBLE",
+    "cost": 1411.3479,
+    "best_bound": 0.1785,
+    "solve_time": 1802.95
+  },
+  {
+    "n_tasks": 800,
+    "status": "FEASIBLE",
+    "cost": 2935.917,
+    "best_bound": 3.3915,
+    "solve_time": 1814.56
+  }
+]

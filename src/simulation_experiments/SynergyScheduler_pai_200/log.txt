@@ -1,8 +1,70 @@
-Traceback (most recent call last):
-  File "C:\SNEHARSHA\CLOUD\EVA\src\eva_simulate.py", line 2, in <module>
-    from master import Master
-  File "C:\SNEHARSHA\CLOUD\EVA\src\master\__init__.py", line 1, in <module>
-    from .master import Master
-  File "C:\SNEHARSHA\CLOUD\EVA\src\master\master.py", line 2, in <module>
-    import docker
-ModuleNotFoundError: No module named 'docker'
+simulator.simulator:358:CRITICAL [0] Time since last log: 0.0, current total cost: 0
+simulator.simulator:358:CRITICAL [10000] Time since last log: 3.7199206352233887, current total cost: 76.8409349999935
+simulator.simulator:358:CRITICAL [20000] Time since last log: 4.0607008934021, current total cost: 324.54124833338096
+simulator.simulator:358:CRITICAL [30000] Time since last log: 4.780996561050415, current total cost: 714.3081816666462
+simulator.simulator:358:CRITICAL [40000] Time since last log: 5.057632923126221, current total cost: 1100.681914999777
+simulator.simulator:358:CRITICAL [50000] Time since last log: 5.06801176071167, current total cost: 1538.8342199996532
+simulator.simulator:358:CRITICAL [60000] Time since last log: 5.532111167907715, current total cost: 2230.176619999635
+simulator.simulator:358:CRITICAL [70000] Time since last log: 8.470421552658081, current total cost: 2995.3779849993043
+simulator.simulator:358:CRITICAL [80000] Time since last log: 7.295043230056763, current total cost: 3668.9406516656422
+simulator.simulator:358:CRITICAL [90000] Time since last log: 7.340222597122192, current total cost: 4333.914918330714
+simulator.simulator:358:CRITICAL [100000] Time since last log: 6.32788872718811, current total cost: 5018.2691849997655
+simulator.simulator:358:CRITICAL [110000] Time since last log: 7.5184571743011475, current total cost: 5753.1164833335715
+simulator.simulator:358:CRITICAL [120000] Time since last log: 7.5464701652526855, current total cost: 6519.576216668469
+simulator.simulator:358:CRITICAL [130000] Time since last log: 9.080049276351929, current total cost: 7471.975150003868
+simulator.simulator:358:CRITICAL [140000] Time since last log: 10.254925966262817, current total cost: 8428.229740005903
+simulator.simulator:358:CRITICAL [150000] Time since last log: 9.299330949783325, current total cost: 9424.968838342515
+simulator.simulator:358:CRITICAL [160000] Time since last log: 9.706633567810059, current total cost: 10421.049470011423
+simulator.simulator:358:CRITICAL [170000] Time since last log: 11.401850938796997, current total cost: 11434.104403348096
+simulator.simulator:358:CRITICAL [180000] Time since last log: 12.180500030517578, current total cost: 12367.538136677651
+simulator.simulator:358:CRITICAL [190000] Time since last log: 10.716286659240723, current total cost: 13212.666985009395
+simulator.simulator:358:CRITICAL [200000] Time since last log: 10.781372785568237, current total cost: 14075.613901675226
+simulator.simulator:358:CRITICAL [210000] Time since last log: 10.094223976135254, current total cost: 14973.883191671403
+simulator.simulator:358:CRITICAL [220000] Time since last log: 8.699392795562744, current total cost: 15855.0711649996
+simulator.simulator:358:CRITICAL [230000] Time since last log: 8.77402949333191, current total cost: 16702.42636166606
+simulator.simulator:358:CRITICAL [240000] Time since last log: 8.38642406463623, current total cost: 17561.67322834156
+simulator.simulator:358:CRITICAL [250000] Time since last log: 7.665383577346802, current total cost: 18331.49669501208
+simulator.simulator:358:CRITICAL [260000] Time since last log: 6.790246248245239, current total cost: 18997.96016167217
+simulator.simulator:358:CRITICAL [270000] Time since last log: 6.379169225692749, current total cost: 19595.829025003375
+simulator.simulator:358:CRITICAL [280000] Time since last log: 6.057786703109741, current total cost: 20179.77902500356
+simulator.simulator:358:CRITICAL [290000] Time since last log: 5.522376298904419, current total cost: 20761.032088339252
+simulator.simulator:358:CRITICAL [300000] Time since last log: 5.718315124511719, current total cost: 21341.015421675966
+simulator.simulator:358:CRITICAL [310000] Time since last log: 5.475409269332886, current total cost: 21920.99875501268
+simulator.simulator:358:CRITICAL [320000] Time since last log: 5.3588902950286865, current total cost: 22500.982088349392
+simulator.simulator:358:CRITICAL [330000] Time since last log: 5.551694393157959, current total cost: 23080.965421686105
+simulator.simulator:358:CRITICAL [340000] Time since last log: 6.576476335525513, current total cost: 23660.94875502282
+simulator.simulator:358:CRITICAL [350000] Time since last log: 5.4832539558410645, current total cost: 24217.138888362322
+simulator.simulator:358:CRITICAL [360000] Time since last log: 5.702038764953613, current total cost: 24693.4290216921
+simulator.simulator:358:CRITICAL [370000] Time since last log: 5.897494792938232, current total cost: 25137.412355008382
+simulator.simulator:358:CRITICAL [380000] Time since last log: 5.772911310195923, current total cost: 25581.395688324665
+simulator.simulator:358:CRITICAL [390000] Time since last log: 5.415543079376221, current total cost: 26025.379021640947
+simulator.simulator:358:CRITICAL [400000] Time since last log: 6.147128582000732, current total cost: 26466.98575495878
+simulator.simulator:358:CRITICAL [410000] Time since last log: 5.73227858543396, current total cost: 26876.96908829724
+simulator.simulator:358:CRITICAL [420000] Time since last log: 4.771567106246948, current total cost: 27286.9524216357
+simulator.simulator:358:CRITICAL [430000] Time since last log: 5.1409077644348145, current total cost: 27696.935754974158
+simulator.simulator:358:CRITICAL [440000] Time since last log: 4.073506832122803, current total cost: 28106.919088312618
+simulator.simulator:358:CRITICAL [450000] Time since last log: 3.9588546752929688, current total cost: 28491.405821640426
+simulator.simulator:358:CRITICAL [460000] Time since last log: 4.232619047164917, current total cost: 28867.389154964683
+simulator.simulator:358:CRITICAL [470000] Time since last log: 4.48652720451355, current total cost: 29243.37248828894
+simulator.simulator:358:CRITICAL [480000] Time since last log: 4.976918697357178, current total cost: 29619.355821613197
+simulator.simulator:358:CRITICAL [490000] Time since last log: 4.4572999477386475, current total cost: 29995.339154937454
+simulator.simulator:358:CRITICAL [500000] Time since last log: 4.5957841873168945, current total cost: 30371.32248826171
+simulator.simulator:358:CRITICAL [510000] Time since last log: 3.965806484222412, current total cost: 30706.51262159075
+simulator.simulator:358:CRITICAL [520000] Time since last log: 4.210327863693237, current total cost: 31014.495954922982
+simulator.simulator:358:CRITICAL [530000] Time since last log: 3.858968496322632, current total cost: 31322.479288255214
+simulator.simulator:358:CRITICAL [540000] Time since last log: 3.3156301975250244, current total cost: 31538.67282158293
+simulator.simulator:358:CRITICAL [550000] Time since last log: 3.486637830734253, current total cost: 31744.656154908935
+simulator.simulator:358:CRITICAL [560000] Time since last log: 3.3962366580963135, current total cost: 31950.639488234938
+simulator.simulator:358:CRITICAL [570000] Time since last log: 3.0978951454162598, current total cost: 32126.026221580898
+simulator.simulator:358:CRITICAL [580000] Time since last log: 2.982659101486206, current total cost: 32298.009554929078
+simulator.simulator:358:CRITICAL [590000] Time since last log: 2.951949119567871, current total cost: 32450.956288269306
+simulator.simulator:358:CRITICAL [600000] Time since last log: 2.628121852874756, current total cost: 32588.939621603284
+simulator.simulator:358:CRITICAL [610000] Time since last log: 2.79703426361084, current total cost: 32715.366354932434
+simulator.simulator:358:CRITICAL [620000] Time since last log: 2.328029155731201, current total cost: 32818.71521991357
+simulator.simulator:358:CRITICAL [630000] Time since last log: 1.8653883934020996, current total cost: 32890.122019907736
+simulator.simulator:358:CRITICAL [640000] Time since last log: 1.0250005722045898, current total cost: 32924.12201992194
+simulator.simulator:358:CRITICAL [650000] Time since last log: 1.08109712600708, current total cost: 32958.12201993614
+simulator.simulator:358:CRITICAL [660000] Time since last log: 1.0183610916137695, current total cost: 32992.122019950344
+simulator.simulator:358:CRITICAL [670000] Time since last log: 1.0315117835998535, current total cost: 33026.12201996455
+simulator.simulator:431:CRITICAL [679501] Total cost: 33058.42541997804, total machine: 87
+simulator.simulator:432:CRITICAL [679501] Simulation time: 380.0629813671112
