@@ -1,0 +1,32 @@
+{
+  "NaiveScheduler": {
+    "total_cost": 35858.35,
+    "max_time_s": 678301,
+    "sim_hours": 188.4169,
+    "cost_per_hour": 190.31
+  },
+  "EVAGangScheduler": {
+    "total_cost": 25190.69,
+    "max_time_s": 707401,
+    "sim_hours": 196.5003,
+    "cost_per_hour": 128.20
+  },
+  "StratusScheduler": {
+    "total_cost": 29050.42,
+    "max_time_s": 738901,
+    "sim_hours": 205.2503,
+    "cost_per_hour": 141.54
+  },
+  "OwlScheduler": {
+    "total_cost": 28936.19,
+    "max_time_s": 716401,
+    "sim_hours": 199.0003,
+    "cost_per_hour": 145.41
+  },
+  "SynergyScheduler": {
+    "total_cost": 33058.43,
+    "max_time_s": 679501,
+    "sim_hours": 188.7503,
+    "cost_per_hour": 175.14
+  }
+}
