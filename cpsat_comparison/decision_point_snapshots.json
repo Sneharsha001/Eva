@@ -1,0 +1,3047 @@
+[
+  {
+    "timestamp": 9900,
+    "task_count": 8,
+    "instance_count": 8,
+    "eva_cost": 103.12200000000001,
+    "cpsat_cost": 25.908,
+    "cpsat_bound": 25.908,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.1331784725189209,
+    "gap_pct": 298.0314960629922,
+    "task_details": [
+      {
+        "task_id": 0,
+        "name": "node0 (job 0)",
+        "demand": [
+          1,
+          12,
+          16
+        ]
+      },
+      {
+        "task_id": 1,
+        "name": "node0 (job 1)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 3,
+        "name": "node0 (job 3)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 4,
+        "name": "node0 (job 4)",
+        "demand": [
+          1,
+          12,
+          16
+        ]
+      },
+      {
+        "task_id": 5,
+        "name": "node0 (job 5)",
+        "demand": [
+          0,
+          20,
+          64
+        ]
+      },
+      {
+        "task_id": 6,
+        "name": "node0 (job 6)",
+        "demand": [
+          1,
+          4,
+          16
+        ]
+      },
+      {
+        "task_id": 7,
+        "name": "node0 (job 7)",
+        "demand": [
+          1,
+          12,
+          16
+        ]
+      },
+      {
+        "task_id": 8,
+        "name": "node0 (job 8)",
+        "demand": [
+          1,
+          12,
+          16
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "1": "p3.16xlarge",
+      "3": "p3.16xlarge",
+      "6": "p3.2xlarge",
+      "0": "p3.16xlarge",
+      "4": "p3.16xlarge",
+      "5": "c7i.12xlarge",
+      "7": "p3.16xlarge",
+      "8": "p3.16xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.16xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 0)",
+          "node0 (job 1)",
+          "node0 (job 3)",
+          "node0 (job 4)",
+          "node0 (job 6)",
+          "node0 (job 7)",
+          "node0 (job 8)"
+        ]
+      },
+      {
+        "instance_type": "c7i.8xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 5)"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 51300,
+    "task_count": 30,
+    "instance_count": 20,
+    "eva_cost": 212.36400000000003,
+    "cpsat_cost": 103.9956,
+    "cpsat_bound": 103.9956,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.15404868125915527,
+    "gap_pct": 104.20479327971572,
+    "task_details": [
+      {
+        "task_id": 5,
+        "name": "node0 (job 5)",
+        "demand": [
+          0,
+          20,
+          64
+        ]
+      },
+      {
+        "task_id": 6,
+        "name": "node0 (job 6)",
+        "demand": [
+          1,
+          4,
+          16
+        ]
+      },
+      {
+        "task_id": 13,
+        "name": "node0 (job 13)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 14,
+        "name": "node0 (job 14)",
+        "demand": [
+          1,
+          16,
+          64
+        ]
+      },
+      {
+        "task_id": 15,
+        "name": "node0 (job 15)",
+        "demand": [
+          1,
+          16,
+          48
+        ]
+      },
+      {
+        "task_id": 17,
+        "name": "node0 (job 17)",
+        "demand": [
+          1,
+          6,
+          6
+        ]
+      },
+      {
+        "task_id": 18,
+        "name": "node0 (job 18)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 20,
+        "name": "node0 (job 20)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 24,
+        "name": "node0 (job 24)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 25,
+        "name": "node0 (job 25)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 26,
+        "name": "node0 (job 26)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 28,
+        "name": "node0 (job 28)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 29,
+        "name": "node0 (job 29)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 31,
+        "name": "node0 (job 31)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 33,
+        "name": "node0 (job 33)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 34,
+        "name": "node0 (job 34)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 36,
+        "name": "node0 (job 36)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 37,
+        "name": "node0 (job 37)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 40,
+        "name": "node0 (job 40)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 41,
+        "name": "node0 (job 41)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 44,
+        "name": "node0 (job 44)",
+        "demand": [
+          1,
+          12,
+          16
+        ]
+      },
+      {
+        "task_id": 45,
+        "name": "node0 (job 45)",
+        "demand": [
+          1,
+          4,
+          24
+        ]
+      },
+      {
+        "task_id": 46,
+        "name": "node0 (job 46)",
+        "demand": [
+          1,
+          12,
+          48
+        ]
+      },
+      {
+        "task_id": 47,
+        "name": "node0 (job 47)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 48,
+        "name": "node0 (job 48)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 49,
+        "name": "node0 (job 49)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 50,
+        "name": "node0 (job 50)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 51,
+        "name": "node0 (job 51)",
+        "demand": [
+          1,
+          12,
+          24
+        ]
+      },
+      {
+        "task_id": 52,
+        "name": "node0 (job 52)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 53,
+        "name": "node0 (job 53)",
+        "demand": [
+          1,
+          12,
+          16
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "5": "c7i.12xlarge",
+      "20": "p3.8xlarge",
+      "47": "p3.8xlarge",
+      "13": "p3.16xlarge",
+      "17": "p3.16xlarge",
+      "18": "p3.16xlarge",
+      "24": "p3.16xlarge",
+      "31": "p3.16xlarge",
+      "15": "p3.8xlarge",
+      "25": "p3.8xlarge",
+      "29": "p3.8xlarge",
+      "33": "p3.8xlarge",
+      "14": "p3.8xlarge",
+      "34": "p3.8xlarge",
+      "40": "c7i.4xlarge",
+      "41": "c7i.4xlarge",
+      "28": "p3.8xlarge",
+      "44": "p3.8xlarge",
+      "46": "p3.8xlarge",
+      "6": "p3.8xlarge",
+      "26": "p3.8xlarge",
+      "45": "p3.8xlarge",
+      "37": "p3.8xlarge",
+      "48": "p3.8xlarge",
+      "36": "p3.8xlarge",
+      "49": "c7i.4xlarge",
+      "50": "p3.8xlarge",
+      "51": "p3.8xlarge",
+      "52": "p3.8xlarge",
+      "53": "p3.8xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 47)"
+        ]
+      },
+      {
+        "instance_type": "p3.8xlarge",
+        "count": 2,
+        "tasks": [
+          "node0 (job 13)",
+          "node0 (job 14)",
+          "node0 (job 15)",
+          "node0 (job 17)",
+          "node0 (job 28)",
+          "node0 (job 36)",
+          "node0 (job 37)"
+        ]
+      },
+      {
+        "instance_type": "p3.16xlarge",
+        "count": 3,
+        "tasks": [
+          "node0 (job 6)",
+          "node0 (job 18)",
+          "node0 (job 20)",
+          "node0 (job 24)",
+          "node0 (job 25)",
+          "node0 (job 26)",
+          "node0 (job 29)",
+          "node0 (job 31)",
+          "node0 (job 33)",
+          "node0 (job 34)",
+          "node0 (job 44)",
+          "node0 (job 45)",
+          "node0 (job 46)",
+          "node0 (job 48)",
+          "node0 (job 50)",
+          "node0 (job 51)",
+          "node0 (job 52)",
+          "node0 (job 53)"
+        ]
+      },
+      {
+        "instance_type": "c7i.8xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 5)"
+        ]
+      },
+      {
+        "instance_type": "r7i.2xlarge",
+        "count": 3,
+        "tasks": [
+          "node0 (job 40)",
+          "node0 (job 41)",
+          "node0 (job 49)"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 93000,
+    "task_count": 31,
+    "instance_count": 17,
+    "eva_cost": 223.17600000000002,
+    "cpsat_cost": 109.5864,
+    "cpsat_bound": 109.5864,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.1371297836303711,
+    "gap_pct": 103.65300803749373,
+    "task_details": [
+      {
+        "task_id": 5,
+        "name": "node0 (job 5)",
+        "demand": [
+          0,
+          20,
+          64
+        ]
+      },
+      {
+        "task_id": 6,
+        "name": "node0 (job 6)",
+        "demand": [
+          1,
+          4,
+          16
+        ]
+      },
+      {
+        "task_id": 13,
+        "name": "node0 (job 13)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 18,
+        "name": "node0 (job 18)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 20,
+        "name": "node0 (job 20)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 26,
+        "name": "node0 (job 26)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 28,
+        "name": "node0 (job 28)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 29,
+        "name": "node0 (job 29)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 31,
+        "name": "node0 (job 31)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 33,
+        "name": "node0 (job 33)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 37,
+        "name": "node0 (job 37)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 40,
+        "name": "node0 (job 40)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 41,
+        "name": "node0 (job 41)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 47,
+        "name": "node0 (job 47)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 48,
+        "name": "node0 (job 48)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 52,
+        "name": "node0 (job 52)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 55,
+        "name": "node0 (job 55)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 64,
+        "name": "node0 (job 64)",
+        "demand": [
+          1,
+          5,
+          11
+        ]
+      },
+      {
+        "task_id": 71,
+        "name": "node0 (job 71)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 73,
+        "name": "node0 (job 73)",
+        "demand": [
+          1,
+          16,
+          57
+        ]
+      },
+      {
+        "task_id": 77,
+        "name": "node0 (job 77)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 78,
+        "name": "node0 (job 78)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 79,
+        "name": "node0 (job 79)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 80,
+        "name": "node0 (job 80)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 83,
+        "name": "node0 (job 83)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 85,
+        "name": "node0 (job 85)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 86,
+        "name": "node0 (job 86)",
+        "demand": [
+          1,
+          12,
+          32
+        ]
+      },
+      {
+        "task_id": 88,
+        "name": "node0 (job 88)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 89,
+        "name": "node0 (job 89)",
+        "demand": [
+          1,
+          12,
+          24
+        ]
+      },
+      {
+        "task_id": 90,
+        "name": "node0 (job 90)",
+        "demand": [
+          1,
+          12,
+          15
+        ]
+      },
+      {
+        "task_id": 91,
+        "name": "node0 (job 91)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "5": "c7i.12xlarge",
+      "37": "p3.8xlarge",
+      "47": "p3.8xlarge",
+      "29": "p3.8xlarge",
+      "33": "p3.8xlarge",
+      "52": "p3.8xlarge",
+      "41": "c7i.4xlarge",
+      "73": "p3.8xlarge",
+      "80": "p3.8xlarge",
+      "86": "p3.8xlarge",
+      "48": "p3.16xlarge",
+      "26": "p3.16xlarge",
+      "55": "p3.16xlarge",
+      "13": "p3.8xlarge",
+      "71": "p3.8xlarge",
+      "77": "p3.8xlarge",
+      "31": "p3.8xlarge",
+      "64": "p3.16xlarge",
+      "20": "p3.16xlarge",
+      "78": "p3.16xlarge",
+      "18": "p3.16xlarge",
+      "28": "p3.16xlarge",
+      "79": "p3.16xlarge",
+      "40": "p3.8xlarge",
+      "83": "p3.8xlarge",
+      "88": "p3.8xlarge",
+      "85": "p3.8xlarge",
+      "89": "p3.8xlarge",
+      "6": "p3.8xlarge",
+      "90": "p3.8xlarge",
+      "91": "p3.8xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.2xlarge",
+        "count": 3,
+        "tasks": [
+          "node0 (job 13)",
+          "node0 (job 18)",
+          "node0 (job 47)"
+        ]
+      },
+      {
+        "instance_type": "p3.16xlarge",
+        "count": 4,
+        "tasks": [
+          "node0 (job 6)",
+          "node0 (job 20)",
+          "node0 (job 26)",
+          "node0 (job 28)",
+          "node0 (job 29)",
+          "node0 (job 31)",
+          "node0 (job 33)",
+          "node0 (job 37)",
+          "node0 (job 48)",
+          "node0 (job 52)",
+          "node0 (job 55)",
+          "node0 (job 64)",
+          "node0 (job 71)",
+          "node0 (job 73)",
+          "node0 (job 77)",
+          "node0 (job 78)",
+          "node0 (job 79)",
+          "node0 (job 80)",
+          "node0 (job 83)",
+          "node0 (job 85)",
+          "node0 (job 86)",
+          "node0 (job 88)",
+          "node0 (job 89)",
+          "node0 (job 90)",
+          "node0 (job 91)"
+        ]
+      },
+      {
+        "instance_type": "c7i.8xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 5)"
+        ]
+      },
+      {
+        "instance_type": "r7i.4xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 40)",
+          "node0 (job 41)"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 134400,
+    "task_count": 43,
+    "instance_count": 27,
+    "eva_cost": 327.21600000000007,
+    "cpsat_cost": 161.0772,
+    "cpsat_bound": 161.0772,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.13063359260559082,
+    "gap_pct": 103.1423441678897,
+    "task_details": [
+      {
+        "task_id": 5,
+        "name": "node0 (job 5)",
+        "demand": [
+          0,
+          20,
+          64
+        ]
+      },
+      {
+        "task_id": 6,
+        "name": "node0 (job 6)",
+        "demand": [
+          1,
+          4,
+          16
+        ]
+      },
+      {
+        "task_id": 13,
+        "name": "node0 (job 13)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 20,
+        "name": "node0 (job 20)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 26,
+        "name": "node0 (job 26)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 28,
+        "name": "node0 (job 28)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 29,
+        "name": "node0 (job 29)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 31,
+        "name": "node0 (job 31)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 33,
+        "name": "node0 (job 33)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 40,
+        "name": "node0 (job 40)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 48,
+        "name": "node0 (job 48)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 52,
+        "name": "node0 (job 52)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 55,
+        "name": "node0 (job 55)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 73,
+        "name": "node0 (job 73)",
+        "demand": [
+          1,
+          16,
+          57
+        ]
+      },
+      {
+        "task_id": 77,
+        "name": "node0 (job 77)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 78,
+        "name": "node0 (job 78)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 80,
+        "name": "node0 (job 80)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 83,
+        "name": "node0 (job 83)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 85,
+        "name": "node0 (job 85)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 86,
+        "name": "node0 (job 86)",
+        "demand": [
+          1,
+          12,
+          32
+        ]
+      },
+      {
+        "task_id": 91,
+        "name": "node0 (job 91)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 92,
+        "name": "node0 (job 92)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 93,
+        "name": "node0 (job 93)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 94,
+        "name": "node0 (job 94)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 95,
+        "name": "node0 (job 95)",
+        "demand": [
+          1,
+          4,
+          24
+        ]
+      },
+      {
+        "task_id": 96,
+        "name": "node0 (job 96)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 101,
+        "name": "node0 (job 101)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 102,
+        "name": "node0 (job 102)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 103,
+        "name": "node0 (job 103)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 104,
+        "name": "node0 (job 104)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 105,
+        "name": "node0 (job 105)",
+        "demand": [
+          1,
+          12,
+          16
+        ]
+      },
+      {
+        "task_id": 108,
+        "name": "node0 (job 108)",
+        "demand": [
+          1,
+          4,
+          31
+        ]
+      },
+      {
+        "task_id": 110,
+        "name": "node0 (job 110)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 111,
+        "name": "node0 (job 111)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 113,
+        "name": "node0 (job 113)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 114,
+        "name": "node0 (job 114)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 115,
+        "name": "node0 (job 115)",
+        "demand": [
+          1,
+          6,
+          23
+        ]
+      },
+      {
+        "task_id": 116,
+        "name": "node0 (job 116)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 117,
+        "name": "node0 (job 117)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 119,
+        "name": "node0 (job 119)",
+        "demand": [
+          1,
+          6,
+          18
+        ]
+      },
+      {
+        "task_id": 120,
+        "name": "node0 (job 120)",
+        "demand": [
+          1,
+          8,
+          64
+        ]
+      },
+      {
+        "task_id": 124,
+        "name": "node0 (job 124)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 125,
+        "name": "node0 (job 125)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "5": "c7i.12xlarge",
+      "29": "p3.8xlarge",
+      "33": "p3.8xlarge",
+      "52": "p3.8xlarge",
+      "105": "p3.16xlarge",
+      "26": "p3.16xlarge",
+      "55": "p3.16xlarge",
+      "93": "p3.8xlarge",
+      "102": "p3.8xlarge",
+      "85": "p3.8xlarge",
+      "13": "p3.8xlarge",
+      "20": "p3.16xlarge",
+      "28": "p3.16xlarge",
+      "78": "p3.16xlarge",
+      "40": "c7i.4xlarge",
+      "83": "p3.8xlarge",
+      "31": "p3.8xlarge",
+      "80": "p3.16xlarge",
+      "96": "p3.16xlarge",
+      "77": "p3.16xlarge",
+      "48": "p3.16xlarge",
+      "101": "p3.16xlarge",
+      "119": "p3.8xlarge",
+      "103": "p3.8xlarge",
+      "104": "p3.16xlarge",
+      "86": "p3.16xlarge",
+      "110": "p3.8xlarge",
+      "114": "p3.8xlarge",
+      "113": "p3.16xlarge",
+      "91": "p3.16xlarge",
+      "111": "p3.16xlarge",
+      "120": "p3.8xlarge",
+      "115": "p3.8xlarge",
+      "6": "p3.2xlarge",
+      "117": "p3.2xlarge",
+      "116": "p3.8xlarge",
+      "94": "p3.8xlarge",
+      "73": "p3.8xlarge",
+      "108": "p3.2xlarge",
+      "95": "p3.2xlarge",
+      "92": "p3.2xlarge",
+      "124": "p3.8xlarge",
+      "125": "p3.2xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.8xlarge",
+        "count": 5,
+        "tasks": [
+          "node0 (job 6)",
+          "node0 (job 20)",
+          "node0 (job 28)",
+          "node0 (job 31)",
+          "node0 (job 78)",
+          "node0 (job 80)",
+          "node0 (job 83)",
+          "node0 (job 91)",
+          "node0 (job 95)",
+          "node0 (job 96)",
+          "node0 (job 101)",
+          "node0 (job 102)",
+          "node0 (job 104)",
+          "node0 (job 108)",
+          "node0 (job 115)",
+          "node0 (job 117)",
+          "node0 (job 119)",
+          "node0 (job 120)",
+          "node0 (job 125)"
+        ]
+      },
+      {
+        "instance_type": "p3.16xlarge",
+        "count": 4,
+        "tasks": [
+          "node0 (job 13)",
+          "node0 (job 26)",
+          "node0 (job 29)",
+          "node0 (job 33)",
+          "node0 (job 48)",
+          "node0 (job 52)",
+          "node0 (job 55)",
+          "node0 (job 73)",
+          "node0 (job 77)",
+          "node0 (job 85)",
+          "node0 (job 86)",
+          "node0 (job 92)",
+          "node0 (job 93)",
+          "node0 (job 94)",
+          "node0 (job 103)",
+          "node0 (job 105)",
+          "node0 (job 110)",
+          "node0 (job 111)",
+          "node0 (job 113)",
+          "node0 (job 114)",
+          "node0 (job 116)",
+          "node0 (job 124)"
+        ]
+      },
+      {
+        "instance_type": "c7i.8xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 5)"
+        ]
+      },
+      {
+        "instance_type": "r7i.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 40)"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 165600,
+    "task_count": 47,
+    "instance_count": 33,
+    "eva_cost": 363.9360000000001,
+    "cpsat_cost": 176.3772,
+    "cpsat_bound": 176.3772,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.08544731140136719,
+    "gap_pct": 106.33959491362836,
+    "task_details": [
+      {
+        "task_id": 5,
+        "name": "node0 (job 5)",
+        "demand": [
+          0,
+          20,
+          64
+        ]
+      },
+      {
+        "task_id": 6,
+        "name": "node0 (job 6)",
+        "demand": [
+          1,
+          4,
+          16
+        ]
+      },
+      {
+        "task_id": 13,
+        "name": "node0 (job 13)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 20,
+        "name": "node0 (job 20)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 26,
+        "name": "node0 (job 26)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 28,
+        "name": "node0 (job 28)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 29,
+        "name": "node0 (job 29)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 31,
+        "name": "node0 (job 31)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 33,
+        "name": "node0 (job 33)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 40,
+        "name": "node0 (job 40)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 48,
+        "name": "node0 (job 48)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 52,
+        "name": "node0 (job 52)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 55,
+        "name": "node0 (job 55)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 73,
+        "name": "node0 (job 73)",
+        "demand": [
+          1,
+          16,
+          57
+        ]
+      },
+      {
+        "task_id": 77,
+        "name": "node0 (job 77)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 78,
+        "name": "node0 (job 78)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 80,
+        "name": "node0 (job 80)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 83,
+        "name": "node0 (job 83)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 85,
+        "name": "node0 (job 85)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 86,
+        "name": "node0 (job 86)",
+        "demand": [
+          1,
+          12,
+          32
+        ]
+      },
+      {
+        "task_id": 91,
+        "name": "node0 (job 91)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 93,
+        "name": "node0 (job 93)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 95,
+        "name": "node0 (job 95)",
+        "demand": [
+          1,
+          4,
+          24
+        ]
+      },
+      {
+        "task_id": 101,
+        "name": "node0 (job 101)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 102,
+        "name": "node0 (job 102)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 103,
+        "name": "node0 (job 103)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 104,
+        "name": "node0 (job 104)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 108,
+        "name": "node0 (job 108)",
+        "demand": [
+          1,
+          4,
+          31
+        ]
+      },
+      {
+        "task_id": 115,
+        "name": "node0 (job 115)",
+        "demand": [
+          1,
+          6,
+          23
+        ]
+      },
+      {
+        "task_id": 116,
+        "name": "node0 (job 116)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 124,
+        "name": "node0 (job 124)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 135,
+        "name": "node0 (job 135)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 137,
+        "name": "node0 (job 137)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 138,
+        "name": "node0 (job 138)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 140,
+        "name": "node0 (job 140)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 142,
+        "name": "node0 (job 142)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 143,
+        "name": "node0 (job 143)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 144,
+        "name": "node0 (job 144)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 145,
+        "name": "node0 (job 145)",
+        "demand": [
+          1,
+          8,
+          32
+        ]
+      },
+      {
+        "task_id": 146,
+        "name": "node0 (job 146)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 147,
+        "name": "node0 (job 147)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 148,
+        "name": "node0 (job 148)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 149,
+        "name": "node0 (job 149)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 150,
+        "name": "node0 (job 150)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 151,
+        "name": "node0 (job 151)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 152,
+        "name": "node0 (job 152)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 153,
+        "name": "node0 (job 153)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "5": "c7i.12xlarge",
+      "52": "p3.8xlarge",
+      "124": "p3.8xlarge",
+      "138": "p3.16xlarge",
+      "55": "p3.16xlarge",
+      "145": "p3.8xlarge",
+      "115": "p3.8xlarge",
+      "147": "p3.16xlarge",
+      "78": "p3.16xlarge",
+      "40": "c7i.4xlarge",
+      "152": "p3.16xlarge",
+      "101": "p3.16xlarge",
+      "20": "p3.8xlarge",
+      "31": "p3.8xlarge",
+      "104": "p3.16xlarge",
+      "86": "p3.16xlarge",
+      "85": "p3.8xlarge",
+      "77": "p3.8xlarge",
+      "116": "p3.8xlarge",
+      "93": "p3.8xlarge",
+      "103": "p3.8xlarge",
+      "143": "p3.8xlarge",
+      "29": "p3.8xlarge",
+      "144": "p3.2xlarge",
+      "48": "p3.16xlarge",
+      "26": "p3.16xlarge",
+      "135": "p3.16xlarge",
+      "33": "p3.8xlarge",
+      "140": "p3.2xlarge",
+      "83": "p3.8xlarge",
+      "102": "p3.8xlarge",
+      "108": "p3.2xlarge",
+      "95": "p3.2xlarge",
+      "13": "p3.8xlarge",
+      "142": "p3.8xlarge",
+      "6": "p3.2xlarge",
+      "146": "p3.2xlarge",
+      "73": "p3.8xlarge",
+      "148": "p3.8xlarge",
+      "149": "p3.8xlarge",
+      "137": "p3.16xlarge",
+      "150": "p3.16xlarge",
+      "151": "p3.2xlarge",
+      "91": "p3.2xlarge",
+      "80": "p3.8xlarge",
+      "153": "p3.8xlarge",
+      "28": "p3.8xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 13)"
+        ]
+      },
+      {
+        "instance_type": "p3.16xlarge",
+        "count": 7,
+        "tasks": [
+          "node0 (job 6)",
+          "node0 (job 20)",
+          "node0 (job 26)",
+          "node0 (job 28)",
+          "node0 (job 29)",
+          "node0 (job 31)",
+          "node0 (job 33)",
+          "node0 (job 48)",
+          "node0 (job 52)",
+          "node0 (job 55)",
+          "node0 (job 73)",
+          "node0 (job 77)",
+          "node0 (job 78)",
+          "node0 (job 80)",
+          "node0 (job 83)",
+          "node0 (job 85)",
+          "node0 (job 86)",
+          "node0 (job 91)",
+          "node0 (job 93)",
+          "node0 (job 95)",
+          "node0 (job 101)",
+          "node0 (job 102)",
+          "node0 (job 103)",
+          "node0 (job 104)",
+          "node0 (job 108)",
+          "node0 (job 115)",
+          "node0 (job 116)",
+          "node0 (job 124)",
+          "node0 (job 135)",
+          "node0 (job 137)",
+          "node0 (job 138)",
+          "node0 (job 140)",
+          "node0 (job 142)",
+          "node0 (job 143)",
+          "node0 (job 144)",
+          "node0 (job 145)",
+          "node0 (job 146)",
+          "node0 (job 147)",
+          "node0 (job 148)",
+          "node0 (job 149)",
+          "node0 (job 150)",
+          "node0 (job 151)",
+          "node0 (job 152)",
+          "node0 (job 153)"
+        ]
+      },
+      {
+        "instance_type": "c7i.8xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 5)"
+        ]
+      },
+      {
+        "instance_type": "r7i.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 40)"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 217200,
+    "task_count": 40,
+    "instance_count": 25,
+    "eva_cost": 257.856,
+    "cpsat_cost": 129.2796,
+    "cpsat_bound": 129.2796,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.3233776092529297,
+    "gap_pct": 99.45606267346126,
+    "task_details": [
+      {
+        "task_id": 26,
+        "name": "node0 (job 26)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 28,
+        "name": "node0 (job 28)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 29,
+        "name": "node0 (job 29)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 31,
+        "name": "node0 (job 31)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 33,
+        "name": "node0 (job 33)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 40,
+        "name": "node0 (job 40)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 52,
+        "name": "node0 (job 52)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 55,
+        "name": "node0 (job 55)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 77,
+        "name": "node0 (job 77)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 80,
+        "name": "node0 (job 80)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 83,
+        "name": "node0 (job 83)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 85,
+        "name": "node0 (job 85)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 86,
+        "name": "node0 (job 86)",
+        "demand": [
+          1,
+          12,
+          32
+        ]
+      },
+      {
+        "task_id": 93,
+        "name": "node0 (job 93)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 102,
+        "name": "node0 (job 102)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 103,
+        "name": "node0 (job 103)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 104,
+        "name": "node0 (job 104)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 115,
+        "name": "node0 (job 115)",
+        "demand": [
+          1,
+          6,
+          23
+        ]
+      },
+      {
+        "task_id": 124,
+        "name": "node0 (job 124)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 135,
+        "name": "node0 (job 135)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 143,
+        "name": "node0 (job 143)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 144,
+        "name": "node0 (job 144)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 154,
+        "name": "node0 (job 154)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 158,
+        "name": "node0 (job 158)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 162,
+        "name": "node0 (job 162)",
+        "demand": [
+          1,
+          8,
+          32
+        ]
+      },
+      {
+        "task_id": 164,
+        "name": "node0 (job 164)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 171,
+        "name": "node0 (job 171)",
+        "demand": [
+          1,
+          10,
+          41
+        ]
+      },
+      {
+        "task_id": 173,
+        "name": "node0 (job 173)",
+        "demand": [
+          1,
+          12,
+          24
+        ]
+      },
+      {
+        "task_id": 176,
+        "name": "node0 (job 176)",
+        "demand": [
+          0,
+          13,
+          56
+        ]
+      },
+      {
+        "task_id": 177,
+        "name": "node0 (job 177)",
+        "demand": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "task_id": 178,
+        "name": "node0 (job 178)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 179,
+        "name": "node0 (job 179)",
+        "demand": [
+          0,
+          13,
+          56
+        ]
+      },
+      {
+        "task_id": 181,
+        "name": "node0 (job 181)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 183,
+        "name": "node0 (job 183)",
+        "demand": [
+          0,
+          16,
+          64
+        ]
+      },
+      {
+        "task_id": 184,
+        "name": "node0 (job 184)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 185,
+        "name": "node0 (job 185)",
+        "demand": [
+          0,
+          13,
+          56
+        ]
+      },
+      {
+        "task_id": 186,
+        "name": "node0 (job 186)",
+        "demand": [
+          0,
+          13,
+          56
+        ]
+      },
+      {
+        "task_id": 187,
+        "name": "node0 (job 187)",
+        "demand": [
+          0,
+          13,
+          56
+        ]
+      },
+      {
+        "task_id": 188,
+        "name": "node0 (job 188)",
+        "demand": [
+          1,
+          8,
+          32
+        ]
+      },
+      {
+        "task_id": 189,
+        "name": "node0 (job 189)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "52": "p3.8xlarge",
+      "124": "p3.8xlarge",
+      "26": "p3.16xlarge",
+      "86": "p3.16xlarge",
+      "55": "p3.16xlarge",
+      "40": "c7i.4xlarge",
+      "80": "p3.16xlarge",
+      "83": "p3.16xlarge",
+      "135": "p3.16xlarge",
+      "171": "p3.8xlarge",
+      "31": "p3.8xlarge",
+      "93": "p3.8xlarge",
+      "102": "p3.8xlarge",
+      "33": "p3.8xlarge",
+      "181": "p3.8xlarge",
+      "154": "p3.8xlarge",
+      "189": "p3.8xlarge",
+      "162": "p3.8xlarge",
+      "115": "p3.8xlarge",
+      "143": "p3.8xlarge",
+      "103": "p3.8xlarge",
+      "164": "c7i.4xlarge",
+      "104": "p3.16xlarge",
+      "28": "p3.16xlarge",
+      "77": "p3.16xlarge",
+      "29": "p3.8xlarge",
+      "144": "p3.8xlarge",
+      "173": "p3.8xlarge",
+      "176": "c7i.8xlarge",
+      "179": "c7i.8xlarge",
+      "183": "c7i.8xlarge",
+      "184": "p3.16xlarge",
+      "177": "p3.16xlarge",
+      "85": "p3.16xlarge",
+      "185": "c7i.8xlarge",
+      "186": "c7i.8xlarge",
+      "187": "c7i.8xlarge",
+      "178": "p3.8xlarge",
+      "188": "p3.8xlarge",
+      "158": "p3.2xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.16xlarge",
+        "count": 5,
+        "tasks": [
+          "node0 (job 26)",
+          "node0 (job 28)",
+          "node0 (job 29)",
+          "node0 (job 31)",
+          "node0 (job 33)",
+          "node0 (job 52)",
+          "node0 (job 55)",
+          "node0 (job 77)",
+          "node0 (job 80)",
+          "node0 (job 83)",
+          "node0 (job 85)",
+          "node0 (job 86)",
+          "node0 (job 93)",
+          "node0 (job 102)",
+          "node0 (job 103)",
+          "node0 (job 104)",
+          "node0 (job 115)",
+          "node0 (job 124)",
+          "node0 (job 135)",
+          "node0 (job 143)",
+          "node0 (job 144)",
+          "node0 (job 154)",
+          "node0 (job 158)",
+          "node0 (job 162)",
+          "node0 (job 171)",
+          "node0 (job 173)",
+          "node0 (job 177)",
+          "node0 (job 178)",
+          "node0 (job 181)",
+          "node0 (job 184)",
+          "node0 (job 188)",
+          "node0 (job 189)"
+        ]
+      },
+      {
+        "instance_type": "r7i.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 164)"
+        ]
+      },
+      {
+        "instance_type": "r7i.4xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 183)"
+        ]
+      },
+      {
+        "instance_type": "r7i.8xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 176)",
+          "node0 (job 179)"
+        ]
+      },
+      {
+        "instance_type": "r7i.12xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 40)",
+          "node0 (job 185)",
+          "node0 (job 186)",
+          "node0 (job 187)"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 258600,
+    "task_count": 28,
+    "instance_count": 18,
+    "eva_cost": 187.17000000000002,
+    "cpsat_cost": 94.446,
+    "cpsat_bound": 94.446,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.21834993362426758,
+    "gap_pct": 98.17673591258499,
+    "task_details": [
+      {
+        "task_id": 26,
+        "name": "node0 (job 26)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 28,
+        "name": "node0 (job 28)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 31,
+        "name": "node0 (job 31)",
+        "demand": [
+          1,
+          6,
+          12
+        ]
+      },
+      {
+        "task_id": 33,
+        "name": "node0 (job 33)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 40,
+        "name": "node0 (job 40)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 55,
+        "name": "node0 (job 55)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 83,
+        "name": "node0 (job 83)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 85,
+        "name": "node0 (job 85)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 93,
+        "name": "node0 (job 93)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 102,
+        "name": "node0 (job 102)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 103,
+        "name": "node0 (job 103)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 104,
+        "name": "node0 (job 104)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 115,
+        "name": "node0 (job 115)",
+        "demand": [
+          1,
+          6,
+          23
+        ]
+      },
+      {
+        "task_id": 124,
+        "name": "node0 (job 124)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 135,
+        "name": "node0 (job 135)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 143,
+        "name": "node0 (job 143)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 144,
+        "name": "node0 (job 144)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 154,
+        "name": "node0 (job 154)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 158,
+        "name": "node0 (job 158)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 171,
+        "name": "node0 (job 171)",
+        "demand": [
+          1,
+          10,
+          41
+        ]
+      },
+      {
+        "task_id": 176,
+        "name": "node0 (job 176)",
+        "demand": [
+          0,
+          13,
+          56
+        ]
+      },
+      {
+        "task_id": 178,
+        "name": "node0 (job 178)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 183,
+        "name": "node0 (job 183)",
+        "demand": [
+          0,
+          16,
+          64
+        ]
+      },
+      {
+        "task_id": 191,
+        "name": "node0 (job 191)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 193,
+        "name": "node0 (job 193)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 194,
+        "name": "node0 (job 194)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 196,
+        "name": "node0 (job 196)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 197,
+        "name": "node0 (job 197)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "124": "p3.8xlarge",
+      "191": "p3.16xlarge",
+      "26": "p3.16xlarge",
+      "55": "p3.16xlarge",
+      "40": "c7i.4xlarge",
+      "193": "p3.16xlarge",
+      "196": "p3.16xlarge",
+      "135": "p3.16xlarge",
+      "171": "p3.8xlarge",
+      "31": "p3.8xlarge",
+      "197": "p3.8xlarge",
+      "93": "p3.8xlarge",
+      "33": "p3.8xlarge",
+      "154": "p3.8xlarge",
+      "83": "p3.8xlarge",
+      "104": "p3.16xlarge",
+      "194": "p3.16xlarge",
+      "85": "p3.8xlarge",
+      "143": "p3.8xlarge",
+      "176": "c7i.8xlarge",
+      "183": "c7i.8xlarge",
+      "178": "p3.8xlarge",
+      "103": "p3.8xlarge",
+      "115": "p3.8xlarge",
+      "102": "p3.8xlarge",
+      "144": "p3.2xlarge",
+      "158": "p3.2xlarge",
+      "28": "p3.2xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.2xlarge",
+        "count": 6,
+        "tasks": [
+          "node0 (job 93)",
+          "node0 (job 102)",
+          "node0 (job 103)",
+          "node0 (job 115)",
+          "node0 (job 143)",
+          "node0 (job 178)"
+        ]
+      },
+      {
+        "instance_type": "p3.8xlarge",
+        "count": 2,
+        "tasks": [
+          "node0 (job 26)",
+          "node0 (job 104)",
+          "node0 (job 135)",
+          "node0 (job 144)",
+          "node0 (job 154)",
+          "node0 (job 158)",
+          "node0 (job 197)"
+        ]
+      },
+      {
+        "instance_type": "p3.16xlarge",
+        "count": 2,
+        "tasks": [
+          "node0 (job 28)",
+          "node0 (job 31)",
+          "node0 (job 33)",
+          "node0 (job 55)",
+          "node0 (job 83)",
+          "node0 (job 85)",
+          "node0 (job 124)",
+          "node0 (job 171)",
+          "node0 (job 191)",
+          "node0 (job 193)",
+          "node0 (job 194)",
+          "node0 (job 196)"
+        ]
+      },
+      {
+        "instance_type": "r7i.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 40)"
+        ]
+      },
+      {
+        "instance_type": "r7i.4xlarge",
+        "count": 2,
+        "tasks": [
+          "node0 (job 176)",
+          "node0 (job 183)"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": 300000,
+    "task_count": 20,
+    "instance_count": 11,
+    "eva_cost": 129.23399999999998,
+    "cpsat_cost": 64.7892,
+    "cpsat_bound": 64.7892,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_solve_time": 0.03783726692199707,
+    "gap_pct": 99.46842992350575,
+    "task_details": [
+      {
+        "task_id": 26,
+        "name": "node0 (job 26)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "task_id": 28,
+        "name": "node0 (job 28)",
+        "demand": [
+          1,
+          4,
+          15
+        ]
+      },
+      {
+        "task_id": 33,
+        "name": "node0 (job 33)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 40,
+        "name": "node0 (job 40)",
+        "demand": [
+          0,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 83,
+        "name": "node0 (job 83)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 85,
+        "name": "node0 (job 85)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 93,
+        "name": "node0 (job 93)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 102,
+        "name": "node0 (job 102)",
+        "demand": [
+          1,
+          8,
+          16
+        ]
+      },
+      {
+        "task_id": 103,
+        "name": "node0 (job 103)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 104,
+        "name": "node0 (job 104)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 115,
+        "name": "node0 (job 115)",
+        "demand": [
+          1,
+          6,
+          23
+        ]
+      },
+      {
+        "task_id": 124,
+        "name": "node0 (job 124)",
+        "demand": [
+          1,
+          16,
+          32
+        ]
+      },
+      {
+        "task_id": 135,
+        "name": "node0 (job 135)",
+        "demand": [
+          1,
+          19,
+          63
+        ]
+      },
+      {
+        "task_id": 143,
+        "name": "node0 (job 143)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 144,
+        "name": "node0 (job 144)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 158,
+        "name": "node0 (job 158)",
+        "demand": [
+          1,
+          4,
+          30
+        ]
+      },
+      {
+        "task_id": 171,
+        "name": "node0 (job 171)",
+        "demand": [
+          1,
+          10,
+          41
+        ]
+      },
+      {
+        "task_id": 178,
+        "name": "node0 (job 178)",
+        "demand": [
+          1,
+          8,
+          30
+        ]
+      },
+      {
+        "task_id": 194,
+        "name": "node0 (job 194)",
+        "demand": [
+          1,
+          12,
+          46
+        ]
+      },
+      {
+        "task_id": 196,
+        "name": "node0 (job 196)",
+        "demand": [
+          1,
+          1,
+          2
+        ]
+      }
+    ],
+    "eva_assignment": {
+      "124": "p3.8xlarge",
+      "40": "c7i.4xlarge",
+      "196": "p3.16xlarge",
+      "83": "p3.16xlarge",
+      "28": "p3.16xlarge",
+      "135": "p3.16xlarge",
+      "33": "p3.8xlarge",
+      "93": "p3.8xlarge",
+      "143": "p3.8xlarge",
+      "104": "p3.16xlarge",
+      "194": "p3.16xlarge",
+      "26": "p3.16xlarge",
+      "85": "p3.8xlarge",
+      "102": "p3.8xlarge",
+      "178": "p3.8xlarge",
+      "103": "p3.8xlarge",
+      "115": "p3.8xlarge",
+      "171": "p3.8xlarge",
+      "144": "p3.2xlarge",
+      "158": "p3.2xlarge"
+    },
+    "cpsat_assignment": [
+      {
+        "instance_type": "p3.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 93)"
+        ]
+      },
+      {
+        "instance_type": "p3.8xlarge",
+        "count": 5,
+        "tasks": [
+          "node0 (job 26)",
+          "node0 (job 28)",
+          "node0 (job 33)",
+          "node0 (job 83)",
+          "node0 (job 85)",
+          "node0 (job 102)",
+          "node0 (job 103)",
+          "node0 (job 104)",
+          "node0 (job 115)",
+          "node0 (job 124)",
+          "node0 (job 135)",
+          "node0 (job 143)",
+          "node0 (job 144)",
+          "node0 (job 158)",
+          "node0 (job 171)",
+          "node0 (job 178)",
+          "node0 (job 194)",
+          "node0 (job 196)"
+        ]
+      },
+      {
+        "instance_type": "r7i.2xlarge",
+        "count": 1,
+        "tasks": [
+          "node0 (job 40)"
+        ]
+      }
+    ]
+  }
+]
