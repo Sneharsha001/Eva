@@ -1,4 +1,10 @@
-# EVA vs CP-SAT: Decision-Point Snapshot Comparison (pai_200)
+> ⚠️ **SUPERSEDED — DIAGNOSTIC STEP ONLY**
+> This file used a CP-SAT model that allowed unrestricted GPU co-location (no interference penalty).
+> That produced an artificially low CP-SAT cost (~50% of EVA) by stacking multiple GPU tasks on 8-GPU instances without throughput penalty.
+> **Authoritative version**: [`decision_point_comparison_tnrp.md`](decision_point_comparison_tnrp.md)
+> (TNRP-corrected model — GPU co-location allowed with EVA’s own interference penalty in objective.)
+
+# EVA vs CP-SAT: Decision-Point Snapshot Comparison (pai_200) [SUPERSEDED]
 
 > **Methodology**: For each snapshot timestamp we determine the exact set of tasks
 > that EVA committed to active instances (from report.json instance histories).

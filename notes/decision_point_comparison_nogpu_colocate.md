@@ -1,4 +1,9 @@
-# EVA vs CP-SAT: Decision-Point Snapshot Comparison (No GPU Co-location)
+> ⚠️ **SUPERSEDED — DIAGNOSTIC STEP ONLY**
+> This file is an intermediate/diagnostic result. It is NOT the final comparison for the paper.
+> **Authoritative version**: [`decision_point_comparison_tnrp.md`](decision_point_comparison_tnrp.md)
+> (TNRP-corrected model — GPU co-location allowed with interference penalty in objective.)
+
+# EVA vs CP-SAT: Decision-Point Snapshot Comparison (No GPU Co-location) [SUPERSEDED]
 
 > **Constraint change**: Added hard constraint that at most one GPU-demanding task
 > (`demand[0] > 0`) may be assigned to any single instance (`sum u[i,t] <= cnt[t]`

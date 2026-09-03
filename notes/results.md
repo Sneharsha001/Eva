@@ -1,9 +1,14 @@
-﻿# EVA Simulation Results: Full Report
+# EVA Simulation Results: Full Report
 
 **Workload**: Microsoft PAI trace, 200-job subset (`pai_200`)
 **Simulation engine**: EVA discrete-event simulator (Python)
 **Generated**: 2026-09-02
 **Source data**: `src/simulation_experiments/*/report.json`, `cpsat_comparison/decision_point_snapshots.json`, `cpsat_comparison/scalability_results.json`
+
+> **Note on decision-point comparison**: The authoritative CP-SAT vs EVA snapshot analysis is in
+> [`decision_point_comparison_tnrp.md`](decision_point_comparison_tnrp.md) (TNRP-corrected model).
+> Earlier versions (`decision_point_comparison.md`, `decision_point_comparison_nogpu_colocate.md`)
+> are superseded intermediate/diagnostic steps — do not cite them.
 
 ---
 
