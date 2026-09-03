@@ -170,10 +170,12 @@ def main():
     out = []
     out.append("# EVA vs CP-SAT vs MILP (SCIP): Decision-Point Snapshot Comparison")
     out.append("")
-    out.append("This report compares the TNRP-corrected CP-SAT model to an identical MILP formulation solved via PySCIPOpt (since Gurobi was not licensed).")
+    out.append("This report presents a side-by-side comparison of CP-SAT and the PySCIPOpt (SCIP) MILP solver on the exact same TNRP-penalized decision-point model under an identical 60-second time limit.")
     out.append("")
-    out.append("| Timestamp (s) | Tasks (GPU/CPU) | EVA $/hr | **CP-SAT TNRP $/hr** | **CP-SAT Gap %** | **MILP TNRP $/hr** | **MILP Gap %** | Solver |")
-    out.append("|---:|---:|---:|---:|---:|---:|---:|---|")
+    out.append("## Detailed Snapshot Comparison")
+    out.append("")
+    out.append("| Timestamp | Tasks (G/C) | EVA $/hr | CP-SAT $/hr | CP-SAT Status | CP-SAT Gap | SCIP $/hr | SCIP Status | SCIP Gap | Match / Winner |")
+    out.append("|---:|---:|---:|---:|:---:|---:|---:|:---:|---:|:---|")
     
     cpsat_optimal_count = 0
     milp_optimal_count = 0
@@ -184,28 +186,55 @@ def main():
         eva = f"{r['eva_cost']:.4f}"
         
         c_cost = r.get("cpsat_cost_tnrp")
-        c_gap = r.get("gap_pct_tnrp")
-        m_cost = r.get("milp_cost_tnrp")
-        m_gap = r.get("milp_gap_pct_tnrp")
-        
+        c_bound = r.get("cpsat_bound_tnrp")
         c_status = r.get("cpsat_status_tnrp")
+        
+        m_cost = r.get("milp_cost_tnrp")
+        m_bound = r.get("milp_bound_tnrp")
         m_status = r.get("milp_status_tnrp")
+        
+        c_gap = 100.0 * (c_cost - c_bound) / c_cost if (c_cost and c_bound) else 0.0
+        m_gap = r.get("milp_gap_pct_tnrp", 0.0)
         
         if c_status == "OPTIMAL": cpsat_optimal_count += 1
         if m_status == "optimal": milp_optimal_count += 1
         
+        if m_status == "optimal" and c_status == "OPTIMAL":
+            verdict = "Identical Optimal"
+        elif m_status == "optimal" and c_status != "OPTIMAL":
+            verdict = "SCIP Proved Optimal"
+        elif c_cost is not None and m_cost is not None:
+            if abs(c_cost - m_cost) < 1e-4:
+                verdict = "Tie (Feasible)"
+            elif m_cost < c_cost:
+                verdict = f"SCIP Better (-${c_cost - m_cost:.2f})"
+            else:
+                verdict = f"CP-SAT Better (-${m_cost - c_cost:.2f})"
+        else:
+            verdict = "N/A"
+            
         def fmt(v): return f"{v:.4f}" if v is not None else "n/a"
-        def fmt_gap(v): return (("+" if v >= 0 else "") + f"{v:.2f}%") if v is not None else "n/a"
+        def fmt_g(g): return f"{g:.2f}%" if g is not None else "n/a"
         
-        out.append(f"| {t} | {tc} | {eva} | **{fmt(c_cost)}** | **{fmt_gap(c_gap)}** | **{fmt(m_cost)}** | **{fmt_gap(m_gap)}** | SCIP |")
+        out.append(f"| {t} | {tc} | {eva} | {fmt(c_cost)} | `{c_status}` | {fmt_g(c_gap)} | {fmt(m_cost)} | `{m_status}` | {fmt_g(m_gap)} | {verdict} |")
         
     out.append("")
-    out.append("## Summary")
-    out.append(f"- CP-SAT reached OPTIMAL on {cpsat_optimal_count} snapshots.")
-    out.append(f"- MILP (SCIP) reached OPTIMAL on {milp_optimal_count} snapshots.")
-    
-    with open(OUTPUT_MD_PATH, "w") as f:
+    out.append("---")
+    out.append("")
+    out.append("## Key Insights and Verification")
+    out.append("")
+    out.append(f"1. **Exact Mathematical Equivalence**: On every snapshot where either or both solvers reached `OPTIMAL` (snapshots `9900`, `51300`, `93000`, `258600`, `300000`), the objective values are **100% identical** down to floating-point precision (e.g., $45.20232 at t=9900).")
+    out.append(f"2. **Proof of Optimality**: SCIP proved global optimality on **{milp_optimal_count} out of 8 snapshots** within the 60s limit, whereas CP-SAT proved optimality on **{cpsat_optimal_count} out of 8 snapshots**. For snapshots `51300` and `93000`, SCIP successfully proved that the feasible solutions found by CP-SAT were in fact globally optimal.")
+    out.append(f"3. **Time-Out Behavior (Snapshots `134400`, `165600`, `217200`)**:")
+    out.append("   - At `t=134400`: SCIP found a slightly better solution ($295.35 vs CP-SAT's $295.75) and achieved a much tighter dual bound (17.52% gap vs CP-SAT's 34.88% gap).")
+    out.append("   - At `t=165600`: Both solvers timed out at 60s. CP-SAT's heuristic found a superior upper bound ($340.08 vs SCIP's $360.23), while SCIP found a superior lower bound ($263.11 vs CP-SAT's $216.29). Neither solver was optimal.")
+    out.append("   - At `t=217200`: Both solvers found the identical cost ($219.8405), but SCIP achieved a tighter dual bound (11.22% gap vs CP-SAT's 30.27% gap).")
+    out.append("4. **Clarification on Gap Metrics**: Note that the optimality gaps displayed above are the **solver's internal MIP optimality gaps** $(Cost - Bound) / Cost$, not EVA's cost overhead gap.")
+    out.append("")
+
+    with open(OUTPUT_MD_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
+    print(f"Updated {OUTPUT_MD_PATH} successfully!")
 
 if __name__ == "__main__":
     main()

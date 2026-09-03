@@ -15,7 +15,7 @@
     "cpsat_inst_cost_tnrp": 36.72,
     "cpsat_pen_cost_tnrp": 8.48232,
     "cpsat_status_tnrp": "OPTIMAL",
-    "cpsat_solve_time_tnrp": 0.06447148323059082,
+    "cpsat_solve_time_tnrp": 0.11214733123779297,
     "gap_pct_tnrp": 128.13430815055514,
     "task_details": [
       {
@@ -117,7 +117,7 @@
         "count": 1,
         "tasks": [
           "node0 (job 0)",
-          "node0 (job 3)",
+          "node0 (job 1)",
           "node0 (job 4)"
         ]
       },
@@ -125,7 +125,7 @@
         "instance_type": "p3.16xlarge",
         "count": 1,
         "tasks": [
-          "node0 (job 1)",
+          "node0 (job 3)",
           "node0 (job 5)",
           "node0 (job 6)",
           "node0 (job 7)",
@@ -138,7 +138,7 @@
     "milp_inst_cost_tnrp": 36.72,
     "milp_pen_cost_tnrp": 8.482320000000007,
     "milp_status_tnrp": "optimal",
-    "milp_solve_time_tnrp": 0.29055356979370117,
+    "milp_solve_time_tnrp": 0.3319392204284668,
     "milp_gap_pct_tnrp": 7.859582602840955e-14,
     "milp_assignment_tnrp": [
       {
@@ -175,11 +175,11 @@
     "cpsat_cost_nogpu": 198.9,
     "gap_pct_nogpu": 6.769230769230783,
     "cpsat_cost_tnrp": 179.45556,
-    "cpsat_bound_tnrp": 132.4671,
+    "cpsat_bound_tnrp": 131.5896,
     "cpsat_inst_cost_tnrp": 109.0572,
     "cpsat_pen_cost_tnrp": 70.39836,
     "cpsat_status_tnrp": "FEASIBLE",
-    "cpsat_solve_time_tnrp": 60.09993028640747,
+    "cpsat_solve_time_tnrp": 60.057968616485596,
     "gap_pct_tnrp": 18.337932800744678,
     "task_details": [
       {
@@ -527,9 +527,9 @@
           "node0 (job 17)",
           "node0 (job 18)",
           "node0 (job 20)",
+          "node0 (job 24)",
           "node0 (job 28)",
           "node0 (job 31)",
-          "node0 (job 36)",
           "node0 (job 37)",
           "node0 (job 41)",
           "node0 (job 45)",
@@ -541,7 +541,7 @@
         "instance_type": "p3.8xlarge",
         "count": 2,
         "tasks": [
-          "node0 (job 24)",
+          "node0 (job 36)",
           "node0 (job 44)",
           "node0 (job 48)",
           "node0 (job 50)",
@@ -584,7 +584,7 @@
     "milp_inst_cost_tnrp": 109.05720000000001,
     "milp_pen_cost_tnrp": 70.39836000000005,
     "milp_status_tnrp": "optimal",
-    "milp_solve_time_tnrp": 17.88112163543701,
+    "milp_solve_time_tnrp": 19.63915181159973,
     "milp_gap_pct_tnrp": 0.0,
     "milp_assignment_tnrp": [
       {
@@ -661,11 +661,11 @@
     "cpsat_cost_nogpu": 186.66,
     "gap_pct_nogpu": 19.56284153005466,
     "cpsat_cost_tnrp": 175.35804,
-    "cpsat_bound_tnrp": 129.15624,
+    "cpsat_bound_tnrp": 128.44068,
     "cpsat_inst_cost_tnrp": 112.6464,
     "cpsat_pen_cost_tnrp": 62.71164,
     "cpsat_status_tnrp": "FEASIBLE",
-    "cpsat_solve_time_tnrp": 60.11645460128784,
+    "cpsat_solve_time_tnrp": 60.117156982421875,
     "gap_pct_tnrp": 27.26875825026331,
     "task_details": [
       {
@@ -1039,7 +1039,7 @@
         "tasks": [
           "node0 (job 6)",
           "node0 (job 26)",
-          "node0 (job 52)",
+          "node0 (job 33)",
           "node0 (job 73)",
           "node0 (job 89)",
           "node0 (job 90)"
@@ -1051,8 +1051,8 @@
         "tasks": [
           "node0 (job 28)",
           "node0 (job 29)",
-          "node0 (job 33)",
           "node0 (job 48)",
+          "node0 (job 52)",
           "node0 (job 55)",
           "node0 (job 78)",
           "node0 (job 79)",
@@ -1069,8 +1069,8 @@
         ]
       },
       {
-        "instance_type": "r7i.4xlarge",
-        "count": 1,
+        "instance_type": "r7i.2xlarge",
+        "count": 2,
         "tasks": [
           "node0 (job 40)",
           "node0 (job 41)"
@@ -1082,7 +1082,7 @@
     "milp_inst_cost_tnrp": 112.6464,
     "milp_pen_cost_tnrp": 62.711640000000024,
     "milp_status_tnrp": "optimal",
-    "milp_solve_time_tnrp": 43.40497422218323,
+    "milp_solve_time_tnrp": 45.154088258743286,
     "milp_gap_pct_tnrp": 0.0,
     "milp_assignment_tnrp": [
       {
@@ -1159,13 +1159,13 @@
     "gap_pct_coloc": 103.1423441678897,
     "cpsat_cost_nogpu": 281.52,
     "gap_pct_nogpu": 16.231884057971047,
-    "cpsat_cost_tnrp": 295.188,
-    "cpsat_bound_tnrp": 192.0348,
-    "cpsat_inst_cost_tnrp": 169.728,
-    "cpsat_pen_cost_tnrp": 125.46,
+    "cpsat_cost_tnrp": 295.7541,
+    "cpsat_bound_tnrp": 192.60504,
+    "cpsat_inst_cost_tnrp": 163.608,
+    "cpsat_pen_cost_tnrp": 132.1461,
     "cpsat_status_tnrp": "FEASIBLE",
-    "cpsat_solve_time_tnrp": 60.11905884742737,
-    "gap_pct_tnrp": 10.850034554250199,
+    "cpsat_solve_time_tnrp": 60.26772594451904,
+    "gap_pct_tnrp": 10.637857598592909,
     "task_details": [
       {
         "task_id": 5,
@@ -1648,18 +1648,17 @@
     "cpsat_assignment_tnrp": [
       {
         "instance_type": "p3.2xlarge",
-        "count": 15,
+        "count": 13,
         "tasks": [
           "node0 (job 6)",
           "node0 (job 13)",
           "node0 (job 20)",
-          "node0 (job 31)",
+          "node0 (job 40)",
           "node0 (job 77)",
           "node0 (job 83)",
           "node0 (job 85)",
           "node0 (job 93)",
           "node0 (job 94)",
-          "node0 (job 95)",
           "node0 (job 102)",
           "node0 (job 103)",
           "node0 (job 108)",
@@ -1673,11 +1672,13 @@
         "tasks": [
           "node0 (job 26)",
           "node0 (job 29)",
+          "node0 (job 31)",
           "node0 (job 33)",
           "node0 (job 52)",
           "node0 (job 73)",
+          "node0 (job 95)",
           "node0 (job 110)",
-          "node0 (job 114)",
+          "node0 (job 115)",
           "node0 (job 119)",
           "node0 (job 120)",
           "node0 (job 124)"
@@ -1688,7 +1689,6 @@
         "count": 3,
         "tasks": [
           "node0 (job 28)",
-          "node0 (job 40)",
           "node0 (job 48)",
           "node0 (job 55)",
           "node0 (job 78)",
@@ -1701,7 +1701,7 @@
           "node0 (job 104)",
           "node0 (job 105)",
           "node0 (job 111)",
-          "node0 (job 115)",
+          "node0 (job 114)",
           "node0 (job 117)",
           "node0 (job 125)"
         ]
@@ -1714,13 +1714,13 @@
         ]
       }
     ],
-    "milp_cost_tnrp": 295.3471199999958,
+    "milp_cost_tnrp": 295.18799999999953,
     "milp_bound_tnrp": 243.60252000000006,
     "milp_inst_cost_tnrp": 169.728,
-    "milp_pen_cost_tnrp": 125.61912000000007,
+    "milp_pen_cost_tnrp": 125.46000000000006,
     "milp_status_tnrp": "timelimit",
-    "milp_solve_time_tnrp": 59.02520537376404,
-    "milp_gap_pct_tnrp": 17.519927060740084,
+    "milp_solve_time_tnrp": 59.4365234375,
+    "milp_gap_pct_tnrp": 17.475466482377183,
     "milp_assignment_tnrp": [
       {
         "instance_type": "p3.2xlarge",
@@ -1736,12 +1736,12 @@
           "node0 (job 85)",
           "node0 (job 93)",
           "node0 (job 94)",
+          "node0 (job 95)",
           "node0 (job 102)",
           "node0 (job 103)",
           "node0 (job 108)",
           "node0 (job 113)",
-          "node0 (job 116)",
-          "node0 (job 119)"
+          "node0 (job 116)"
         ]
       },
       {
@@ -1775,9 +1775,9 @@
           "node0 (job 33)",
           "node0 (job 52)",
           "node0 (job 73)",
-          "node0 (job 95)",
           "node0 (job 110)",
           "node0 (job 114)",
+          "node0 (job 119)",
           "node0 (job 120)",
           "node0 (job 124)"
         ]
@@ -1803,11 +1803,11 @@
     "cpsat_cost_nogpu": 312.12,
     "gap_pct_nogpu": 16.60130718954251,
     "cpsat_cost_tnrp": 340.08432,
-    "cpsat_bound_tnrp": 213.3384,
+    "cpsat_bound_tnrp": 216.2904,
     "cpsat_inst_cost_tnrp": 181.968,
     "cpsat_pen_cost_tnrp": 158.11632,
     "cpsat_status_tnrp": "FEASIBLE",
-    "cpsat_solve_time_tnrp": 60.12511658668518,
+    "cpsat_solve_time_tnrp": 60.22405672073364,
     "gap_pct_tnrp": 7.013460661755914,
     "task_details": [
       {
@@ -2365,9 +2365,9 @@
           "node0 (job 52)",
           "node0 (job 73)",
           "node0 (job 95)",
+          "node0 (job 104)",
           "node0 (job 115)",
           "node0 (job 124)",
-          "node0 (job 135)",
           "node0 (job 144)",
           "node0 (job 145)",
           "node0 (job 148)",
@@ -2387,7 +2387,7 @@
           "node0 (job 86)",
           "node0 (job 91)",
           "node0 (job 101)",
-          "node0 (job 104)",
+          "node0 (job 135)",
           "node0 (job 137)",
           "node0 (job 138)",
           "node0 (job 140)",
@@ -2405,23 +2405,25 @@
         ]
       }
     ],
-    "milp_cost_tnrp": 360.23424000000006,
-    "milp_bound_tnrp": 263.1100200000001,
-    "milp_inst_cost_tnrp": 179.4372,
-    "milp_pen_cost_tnrp": 180.79704000000007,
+    "milp_cost_tnrp": 361.91742000000005,
+    "milp_bound_tnrp": 256.24185000000006,
+    "milp_inst_cost_tnrp": 181.968,
+    "milp_pen_cost_tnrp": 179.9494200000001,
     "milp_status_tnrp": "timelimit",
-    "milp_solve_time_tnrp": 59.946555614471436,
-    "milp_gap_pct_tnrp": 26.961407111106364,
+    "milp_solve_time_tnrp": 59.996947288513184,
+    "milp_gap_pct_tnrp": 29.198807285927263,
     "milp_assignment_tnrp": [
       {
         "instance_type": "p3.2xlarge",
-        "count": 14,
+        "count": 15,
         "tasks": [
           "node0 (job 6)",
           "node0 (job 13)",
           "node0 (job 20)",
           "node0 (job 31)",
+          "node0 (job 40)",
           "node0 (job 77)",
+          "node0 (job 80)",
           "node0 (job 83)",
           "node0 (job 85)",
           "node0 (job 93)",
@@ -2459,7 +2461,6 @@
           "node0 (job 55)",
           "node0 (job 73)",
           "node0 (job 78)",
-          "node0 (job 80)",
           "node0 (job 86)",
           "node0 (job 91)",
           "node0 (job 101)",
@@ -2482,13 +2483,6 @@
         "tasks": [
           "node0 (job 5)"
         ]
-      },
-      {
-        "instance_type": "r7i.2xlarge",
-        "count": 1,
-        "tasks": [
-          "node0 (job 40)"
-        ]
       }
     ]
   },
@@ -2503,13 +2497,13 @@
     "gap_pct_coloc": 99.45606267346126,
     "cpsat_cost_nogpu": 208.08,
     "gap_pct_nogpu": 23.921568627450974,
-    "cpsat_cost_tnrp": 221.89068,
-    "cpsat_bound_tnrp": 147.8112,
+    "cpsat_cost_tnrp": 219.84048,
+    "cpsat_bound_tnrp": 153.28434,
     "cpsat_inst_cost_tnrp": 131.8104,
-    "cpsat_pen_cost_tnrp": 90.08028,
+    "cpsat_pen_cost_tnrp": 88.03008,
     "cpsat_status_tnrp": "FEASIBLE",
-    "cpsat_solve_time_tnrp": 60.173696756362915,
-    "gap_pct_tnrp": 16.208576223210454,
+    "cpsat_solve_time_tnrp": 60.10830903053284,
+    "gap_pct_tnrp": 17.2923203224447,
     "task_details": [
       {
         "task_id": 26,
@@ -2961,19 +2955,19 @@
         "instance_type": "p3.2xlarge",
         "count": 13,
         "tasks": [
-          "node0 (job 26)",
           "node0 (job 31)",
+          "node0 (job 40)",
           "node0 (job 77)",
           "node0 (job 83)",
           "node0 (job 85)",
           "node0 (job 93)",
           "node0 (job 102)",
           "node0 (job 103)",
+          "node0 (job 115)",
           "node0 (job 143)",
           "node0 (job 154)",
-          "node0 (job 164)",
+          "node0 (job 177)",
           "node0 (job 178)",
-          "node0 (job 188)",
           "node0 (job 189)"
         ]
       },
@@ -2981,16 +2975,16 @@
         "instance_type": "p3.8xlarge",
         "count": 3,
         "tasks": [
-          "node0 (job 52)",
-          "node0 (job 115)",
+          "node0 (job 26)",
+          "node0 (job 29)",
           "node0 (job 124)",
           "node0 (job 144)",
           "node0 (job 158)",
           "node0 (job 162)",
           "node0 (job 171)",
           "node0 (job 173)",
-          "node0 (job 177)",
-          "node0 (job 181)"
+          "node0 (job 181)",
+          "node0 (job 188)"
         ]
       },
       {
@@ -2998,8 +2992,8 @@
         "count": 2,
         "tasks": [
           "node0 (job 28)",
-          "node0 (job 29)",
           "node0 (job 33)",
+          "node0 (job 52)",
           "node0 (job 55)",
           "node0 (job 80)",
           "node0 (job 86)",
@@ -3009,10 +3003,10 @@
         ]
       },
       {
-        "instance_type": "r7i.12xlarge",
-        "count": 2,
+        "instance_type": "r7i.24xlarge",
+        "count": 1,
         "tasks": [
-          "node0 (job 40)",
+          "node0 (job 164)",
           "node0 (job 176)",
           "node0 (job 179)",
           "node0 (job 183)",
@@ -3023,12 +3017,12 @@
       }
     ],
     "milp_cost_tnrp": 219.84048000000004,
-    "milp_bound_tnrp": 195.17872500000004,
+    "milp_bound_tnrp": 194.87497500000006,
     "milp_inst_cost_tnrp": 131.8104,
     "milp_pen_cost_tnrp": 88.03008000000005,
     "milp_status_tnrp": "timelimit",
-    "milp_solve_time_tnrp": 59.326488733291626,
-    "milp_gap_pct_tnrp": 11.218022722657809,
+    "milp_solve_time_tnrp": 59.04478669166565,
+    "milp_gap_pct_tnrp": 11.356191089102415,
     "milp_assignment_tnrp": [
       {
         "instance_type": "p3.2xlarge",
@@ -3108,11 +3102,11 @@
     "cpsat_cost_nogpu": 159.12,
     "gap_pct_nogpu": 17.628205128205135,
     "cpsat_cost_tnrp": 140.27256,
-    "cpsat_bound_tnrp": 140.27256,
+    "cpsat_bound_tnrp": 108.57876,
     "cpsat_inst_cost_tnrp": 94.446,
     "cpsat_pen_cost_tnrp": 45.82656,
-    "cpsat_status_tnrp": "OPTIMAL",
-    "cpsat_solve_time_tnrp": 51.18139028549194,
+    "cpsat_status_tnrp": "FEASIBLE",
+    "cpsat_solve_time_tnrp": 60.062509298324585,
     "gap_pct_tnrp": 33.43308199408353,
     "task_details": [
       {
@@ -3493,7 +3487,7 @@
     "milp_inst_cost_tnrp": 94.446,
     "milp_pen_cost_tnrp": 45.82656,
     "milp_status_tnrp": "optimal",
-    "milp_solve_time_tnrp": 12.906665325164795,
+    "milp_solve_time_tnrp": 14.095405101776123,
     "milp_gap_pct_tnrp": 0.0,
     "milp_assignment_tnrp": [
       {
@@ -3572,7 +3566,7 @@
     "cpsat_inst_cost_tnrp": 64.7892,
     "cpsat_pen_cost_tnrp": 29.12814,
     "cpsat_status_tnrp": "OPTIMAL",
-    "cpsat_solve_time_tnrp": 11.906187534332275,
+    "cpsat_solve_time_tnrp": 18.39234185218811,
     "gap_pct_tnrp": 37.60398239558317,
     "task_details": [
       {
@@ -3806,7 +3800,7 @@
         "count": 5,
         "tasks": [
           "node0 (job 83)",
-          "node0 (job 85)",
+          "node0 (job 93)",
           "node0 (job 103)",
           "node0 (job 143)",
           "node0 (job 178)"
@@ -3831,7 +3825,7 @@
         "tasks": [
           "node0 (job 26)",
           "node0 (job 28)",
-          "node0 (job 93)",
+          "node0 (job 85)",
           "node0 (job 104)",
           "node0 (job 135)",
           "node0 (job 194)",
@@ -3851,7 +3845,7 @@
     "milp_inst_cost_tnrp": 64.78920000000001,
     "milp_pen_cost_tnrp": 29.128140000000002,
     "milp_status_tnrp": "optimal",
-    "milp_solve_time_tnrp": 5.365587472915649,
+    "milp_solve_time_tnrp": 6.37428617477417,
     "milp_gap_pct_tnrp": 0.0,
     "milp_assignment_tnrp": [
       {
