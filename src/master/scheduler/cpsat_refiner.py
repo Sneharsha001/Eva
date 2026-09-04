@@ -101,7 +101,10 @@ def _eva_objective(planned_config, current_config,
     Returns (net_saving, provision_saving_per_sec, migration_cost).
     Calls EVAGangScheduler helpers to stay exactly in sync with Eva.
     """
-    from master.scheduler.eva_gang_scheduler import EVAGangScheduler
+    try:
+        from master.scheduler.eva_gang_scheduler import EVAGangScheduler
+    except ImportError:
+        from .eva_gang_scheduler import EVAGangScheduler
     sched = EVAGangScheduler(default_contention_rate=default_rate)
 
     actual_ps = sched.get_config_cost(planned_config, instances, instance_types)
@@ -460,12 +463,15 @@ def refine_with_cpsat(
         cp_model.UNKNOWN:       "UNKNOWN",
         cp_model.MODEL_INVALID: "MODEL_INVALID",
     }
-    log["solver_status"]        = STATUS.get(status, str(status))
-    log["solver_wall_time_sec"] = round(wall, 3)
+    log["solver_status"]                = STATUS.get(status, str(status))
+    log["cpsat_solver_wall_time_sec"]    = round(wall, 3)
+    log["solver_wall_time_sec"]          = round(wall, 3)
+    log["preprocessing_time_sec"]        = round(t_s - t_total_start, 3)
+    log["refinement_total_wall_time_sec"] = round(time_module.time() - t_total_start, 3)
 
     if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         log["plan_selected"] = "EVA"
-        log["solver_wall_time_sec"] = round(time_module.time() - t_total_start, 3)
+        log["refinement_total_wall_time_sec"] = round(time_module.time() - t_total_start, 3)
         return eva_planned_config, log
 
     try:
@@ -505,7 +511,7 @@ def refine_with_cpsat(
     if not ok:
         log["solver_status"] += f"_INVALID({msg})"
         log["plan_selected"]  = "EVA"
-        log["solver_wall_time_sec"] = round(time_module.time() - t_total_start, 3)
+        log["refinement_total_wall_time_sec"] = round(time_module.time() - t_total_start, 3)
         return eva_planned_config, log
 
     # -- Compare with Eva --------------------------------------------------
@@ -526,5 +532,5 @@ def refine_with_cpsat(
         log["plan_selected"] = "EVA"
         result = eva_planned_config
 
-    log["solver_wall_time_sec"] = round(time_module.time() - t_total_start, 3)
+    log["refinement_total_wall_time_sec"] = round(time_module.time() - t_total_start, 3)
     return result, log

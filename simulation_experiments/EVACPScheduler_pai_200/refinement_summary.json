@@ -1,0 +1,40 @@
+{
+  "number_of_decision_points": 30,
+  "number_improved": 1,
+  "number_unchanged": 12,
+  "number_timed_out": 17,
+  "number_no_improvement": 0,
+  "percentage_of_decisions_improved": 3.33,
+  "mean_improvement": 0.1297,
+  "median_improvement": 0.0,
+  "maximum_improvement": 3.892,
+  "total_improvement": 3.892,
+  "mean_solver_time": 6.095,
+  "median_solver_time": 6.32,
+  "global_reconfig_statistics": {
+    "count": 15,
+    "improved": 0,
+    "unchanged": 3,
+    "timed_out": 12,
+    "percentage_improved": 0.0,
+    "mean_improvement": 0.0,
+    "median_improvement": 0.0,
+    "max_improvement": 0.0,
+    "total_improvement": 0.0,
+    "mean_solver_time": 7.24,
+    "median_solver_time": 6.848
+  },
+  "local_reconfig_statistics": {
+    "count": 15,
+    "improved": 1,
+    "unchanged": 9,
+    "timed_out": 5,
+    "percentage_improved": 6.67,
+    "mean_improvement": 0.2595,
+    "median_improvement": 0.0,
+    "max_improvement": 3.892,
+    "total_improvement": 3.892,
+    "mean_solver_time": 4.95,
+    "median_solver_time": 5.54
+  }
+}
