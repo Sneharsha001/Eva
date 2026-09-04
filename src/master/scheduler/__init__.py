@@ -7,3 +7,4 @@ from .eva_gang_no_global_scheduler import EVAGangNoGlobalScheduler
 from .eva_gang_no_throughput_aware_scheduler import EVAGangNoThroughputAwareScheduler
 from .synergy_scheduler import SynergyScheduler
 from .owl_scheduler import OwlScheduler
+from .eva_cpsat_scheduler import EVACPSATScheduler

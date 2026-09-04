@@ -3,6 +3,7 @@ import os
 import json
 from itertools import product
 import random
+import argparse
 
 from parse_report.utils import calculate_total_cost
 
@@ -61,6 +62,10 @@ def generate_config(scheduler, trace_file, report_file, ports):
         config["scheduler"]["args"]["contention_map_file"] = "simulation/contention_map/contention_map.pkl"
         # config["scheduler"]["args"]["contention_map_file"] = None
         # config["scheduler"]["args"]["contention_map_value"] = contention_factor
+    elif scheduler == "EVACPSATScheduler":
+        config["scheduler"]["args"]["enable_cpsat"] = True
+        config["scheduler"]["args"]["time_limit_sec"] = 5.0
+        config["scheduler"]["args"]["refinement_log_path"] = os.path.join(os.path.dirname(report_file), "refinement_log.json")
     return config
 
 def run_experiment(working_dir, scheduler, trace_file, ports):
@@ -85,13 +90,37 @@ def run_experiment(working_dir, scheduler, trace_file, ports):
         subprocess.run(command, stdout=f, stderr=f)
 
 def main():
-    schedulers = [
-        "NaiveScheduler",
-        "EVAGangScheduler",
-        "StratusScheduler",
-        "OwlScheduler",
-        "SynergyScheduler",
-    ]
+    parser = argparse.ArgumentParser(description="Run 200-job simulation experiments.")
+    parser.add_argument(
+        "--mode",
+        choices=["DEFAULT", "ORIGINAL_EVA", "EVA_CPSAT", "COMPARE_EVA"],
+        default="DEFAULT",
+        help="Experiment mode: DEFAULT (runs original 5 schedulers), ORIGINAL_EVA (EVAGangScheduler only), EVA_CPSAT (EVACPSATScheduler only), COMPARE_EVA (both)"
+    )
+    parser.add_argument(
+        "--schedulers",
+        nargs="+",
+        default=None,
+        help="Custom list of schedulers to run"
+    )
+    args = parser.parse_args()
+
+    if args.schedulers is not None:
+        schedulers = args.schedulers
+    elif args.mode == "ORIGINAL_EVA":
+        schedulers = ["EVAGangScheduler"]
+    elif args.mode == "EVA_CPSAT":
+        schedulers = ["EVACPSATScheduler"]
+    elif args.mode == "COMPARE_EVA":
+        schedulers = ["EVAGangScheduler", "EVACPSATScheduler"]
+    else:
+        schedulers = [
+            "NaiveScheduler",
+            "EVAGangScheduler",
+            "StratusScheduler",
+            "OwlScheduler",
+            "SynergyScheduler",
+        ]
     trace_files = [
         "pai_trace/traces/pai_200.json"
         ] 
